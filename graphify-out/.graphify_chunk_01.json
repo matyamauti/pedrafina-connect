@@ -1,0 +1,605 @@
+{
+  "nodes": [
+    {
+      "id": "agents_nextjs_agent_rules",
+      "label": "Next.js Agent Rules Block",
+      "file_type": "document",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\AGENTS.md",
+      "source_location": "lines 1-9",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Warns agents that this Next.js version has breaking changes versus training data, so the local guides in node_modules/next/dist/docs/ must be read before writing code. The block is machine-managed, so committing it with the work is preferred over deleting it, which only recreates an uncommitted change."
+    },
+    {
+      "id": "agents_next_dist_docs",
+      "label": "node_modules/next/dist/docs Local Guides",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\AGENTS.md",
+      "source_location": "line 5",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Treated as the authoritative API reference instead of model memory; resolved relative to AGENTS.md because in monorepos the next package may not be visible from the repo root."
+    },
+    {
+      "id": "agents_generate_agent_files",
+      "label": "generate-agent-files.js (next dev)",
+      "file_type": "code",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\AGENTS.md",
+      "source_location": "line 7",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Named as the verifiable origin of the injected agent-rules block, so agents can confirm the block is tool-generated rather than human-authored."
+    },
+    {
+      "id": "readme_nextjs_project",
+      "label": "PF-connect Next.js Project (create-next-app)",
+      "file_type": "document",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\README.md",
+      "source_location": "line 1",
+      "source_url": "https://nextjs.org",
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_dev_server",
+      "label": "Development Server Workflow",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\README.md",
+      "source_location": "lines 5-19",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Hot-reloading dev server on localhost:3000 with app/page.tsx as the editable entry point; any of npm/yarn/pnpm/bun dev is accepted."
+    },
+    {
+      "id": "readme_next_font_geist",
+      "label": "next/font with Geist",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\README.md",
+      "source_location": "line 21",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Fonts are loaded through next/font so they are optimized and self-hosted automatically rather than fetched at runtime."
+    },
+    {
+      "id": "readme_vercel_deploy",
+      "label": "Vercel Deployment",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\README.md",
+      "source_location": "lines 32-36",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Recommended as the easiest deploy path because Vercel authors Next.js, so the platform tracks framework features directly."
+    },
+    {
+      "id": "docs_scrollcinema_scroll_cinema",
+      "label": "Scroll Cinema (Scroll-Bound Video Runbook)",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\docs\\scrollcinema.md",
+      "source_location": "lines 1-12",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "A repeatable runbook for frame-accurate scroll-driven video, written because the technique was validated on a real Hero (Nude Arquitetura) at zero cost using only local FFmpeg and one existing video, with a measured 348ms to 10ms seek improvement."
+    },
+    {
+      "id": "docs_scrollcinema_keyframe_seek_problem",
+      "label": "Keyframe Seek Stutter Problem",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\docs\\scrollcinema.md",
+      "source_location": "section 00, lines 13-17",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "A normal <video> stores a full keyframe only every ~2 seconds, so an arbitrary seek forces the browser to rebuild from the last keyframe; dozens of scroll events per second makes this visible stutter. The fix is declared to be the file, not the code."
+    },
+    {
+      "id": "docs_scrollcinema_ffmpeg",
+      "label": "FFmpeg (Local Prerequisite)",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\docs\\scrollcinema.md",
+      "source_location": "section 01, lines 19-29",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Chosen because video processing stays local and free, needing no paid service; installed on Windows via winget (Gyan.FFmpeg) and requiring a fresh terminal because PATH only refreshes in a new session."
+    },
+    {
+      "id": "docs_scrollcinema_minterpolate_60fps",
+      "label": "Stage 1: minterpolate to 60fps",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\docs\\scrollcinema.md",
+      "source_location": "section 02, lines 31-46",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Optional but recommended for 24-30fps sources: motion-interpolated intermediate frames make the scroll smoother after the keyframe pass. Observed cost was ~9 minutes for 8 seconds of video at search_param=32 (far above the ~75s-per-5s estimate) because the filter is sensitive to how many CPU cores are actually used; lowering search_param to 16 trades quality for speed, and Get-Process ffmpeg confirms it is working rather than hung."
+    },
+    {
+      "id": "docs_scrollcinema_keyint_1",
+      "label": "Stage 2: keyint=1 All-Keyframe Re-encode",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\docs\\scrollcinema.md",
+      "source_location": "section 03, lines 48-64",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "keyint=1:min-keyint=1:scenecut=0 with -g 1 forces every frame to be independent so any seek costs the same. The file gets larger, accepted deliberately: weight is invisible on a good connection while stutter is always visible. Also uses +faststart and yuv420p for immediate playback and broad compatibility."
+    },
+    {
+      "id": "docs_scrollcinema_1920px_floor",
+      "label": "1920px Width Floor",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\docs\\scrollcinema.md",
+      "source_location": "section 03, lines 62-64",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Resolution is treated as non-negotiable: to shrink the file, shorten the duration or raise CRF first, because a low-resolution source cannot be recovered by the pipeline."
+    },
+    {
+      "id": "docs_scrollcinema_keyframe_verification",
+      "label": "frames == keyframes Verification",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\docs\\scrollcinema.md",
+      "source_location": "section 03, lines 66-72",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Counting total frames and I-frames separately and requiring equality is the only objective proof that the keyint=1 pass actually took effect (476/476 in the reference case)."
+    },
+    {
+      "id": "docs_scrollcinema_sticky_scroll_binding",
+      "label": "Stage 3: Sticky Scroll-to-currentTime Binding",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\docs\\scrollcinema.md",
+      "source_location": "section 04, lines 74-92",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "A 300-500vh section wraps a 100vh sticky container; scroll progress 0-1 maps straight onto video.currentTime, guarded by readyState >= 2 and duration > 0. video.play() is never called because the browser must not own the time value."
+    },
+    {
+      "id": "docs_scrollcinema_autoplay_loop_conflict",
+      "label": "autoPlay/loop vs currentTime Conflict Bug",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\docs\\scrollcinema.md",
+      "source_location": "section 04, lines 80-82",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Real bug found in this project: autoPlay and loop left the browser advancing playback while scroll code also wrote currentTime, and the two writers of the same value produced visual flicker. Fix is to drop both attributes and call video.pause() as soon as the video is ready."
+    },
+    {
+      "id": "docs_scrollcinema_raf_hidden_tab_pitfall",
+      "label": "requestAnimationFrame Hidden-Tab Pitfall",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\docs\\scrollcinema.md",
+      "source_location": "section 04, lines 94-96",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "rAF is suspended when document.hidden is true, so embedded preview panels give a guaranteed false negative; test in a genuinely visible tab before suspecting the code."
+    },
+    {
+      "id": "docs_scrollcinema_seek_benchmark",
+      "label": "Seek Latency Benchmark (Before/After)",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\docs\\scrollcinema.md",
+      "source_location": "section 05, lines 98-120",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Ten non-sequential timestamps measured with performance.now() in a real browser rather than estimated; worst case fell from 348ms to a consistent 3-10ms, which is the evidence that justifies the whole pipeline."
+    },
+    {
+      "id": "docs_scrollcinema_repeat_checklist",
+      "label": "Reuse Checklist for Other Sites",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\docs\\scrollcinema.md",
+      "source_location": "section 06, lines 122-135",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Turns the runbook into pass/fail gates: >=1920px source, both FFmpeg passes verified, no autoPlay/loop (only muted playsInline preload=auto), real-tab testing, reverse scroll rewinds the video, and touch-scroll parity on mobile."
+    },
+    {
+      "id": "docs_scrollcinema_no_source_video_fallback",
+      "label": "No-Source-Video Generation Fallback",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\docs\\scrollcinema.md",
+      "source_location": "section 06, lines 136-138",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "When no reusable footage exists, generate first and last journey frames (Frame B using Frame A as sole reference), fill the transition with a first/last-frame video generator such as Wan 3.0 via Higgsfield, then apply stages 02 and 03 unchanged. Flagged as the only step that consumes generation credits."
+    },
+    {
+      "id": "docs_scrollcinema_nude_arquitetura_hero",
+      "label": "Nude Arquitetura Hero (Reference Case)",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\docs\\scrollcinema.md",
+      "source_location": "line 140",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Reference deliverable proving the pipeline end to end: 1920x1080, 60fps, 32.5MB, 476 keyframes."
+    }
+  ],
+  "edges": [
+    {
+      "source": "agents_nextjs_agent_rules",
+      "target": "agents_next_dist_docs",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\AGENTS.md",
+      "source_location": "line 5",
+      "weight": 1.0
+    },
+    {
+      "source": "agents_nextjs_agent_rules",
+      "target": "agents_generate_agent_files",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\AGENTS.md",
+      "source_location": "line 7",
+      "weight": 1.0
+    },
+    {
+      "source": "agents_nextjs_agent_rules",
+      "target": "readme_nextjs_project",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\AGENTS.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "agents_nextjs_agent_rules",
+      "target": "readme_dev_server",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\AGENTS.md",
+      "source_location": "line 7",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_nextjs_project",
+      "target": "readme_dev_server",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\README.md",
+      "source_location": "lines 5-19",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_nextjs_project",
+      "target": "readme_next_font_geist",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\README.md",
+      "source_location": "line 21",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_nextjs_project",
+      "target": "readme_vercel_deploy",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\README.md",
+      "source_location": "lines 32-36",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_scrollcinema_scroll_cinema",
+      "target": "docs_scrollcinema_keyframe_seek_problem",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\docs\\scrollcinema.md",
+      "source_location": "section 00",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_scrollcinema_keyframe_seek_problem",
+      "target": "docs_scrollcinema_keyint_1",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\docs\\scrollcinema.md",
+      "source_location": "sections 00, 03",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_scrollcinema_minterpolate_60fps",
+      "target": "docs_scrollcinema_ffmpeg",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\docs\\scrollcinema.md",
+      "source_location": "section 02",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_scrollcinema_keyint_1",
+      "target": "docs_scrollcinema_ffmpeg",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\docs\\scrollcinema.md",
+      "source_location": "section 03",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_scrollcinema_keyint_1",
+      "target": "docs_scrollcinema_minterpolate_60fps",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\docs\\scrollcinema.md",
+      "source_location": "section 03, line 57 (interp.mp4)",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_scrollcinema_keyint_1",
+      "target": "docs_scrollcinema_1920px_floor",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\docs\\scrollcinema.md",
+      "source_location": "section 03",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_scrollcinema_keyframe_verification",
+      "target": "docs_scrollcinema_keyint_1",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\docs\\scrollcinema.md",
+      "source_location": "section 03",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_scrollcinema_sticky_scroll_binding",
+      "target": "docs_scrollcinema_keyint_1",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\docs\\scrollcinema.md",
+      "source_location": "sections 03, 04",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_scrollcinema_autoplay_loop_conflict",
+      "target": "docs_scrollcinema_sticky_scroll_binding",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\docs\\scrollcinema.md",
+      "source_location": "section 04",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_scrollcinema_raf_hidden_tab_pitfall",
+      "target": "docs_scrollcinema_sticky_scroll_binding",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\docs\\scrollcinema.md",
+      "source_location": "section 04",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_scrollcinema_seek_benchmark",
+      "target": "docs_scrollcinema_keyint_1",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\docs\\scrollcinema.md",
+      "source_location": "section 05",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_scrollcinema_seek_benchmark",
+      "target": "docs_scrollcinema_nude_arquitetura_hero",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\docs\\scrollcinema.md",
+      "source_location": "section 05, line 100",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_scrollcinema_scroll_cinema",
+      "target": "docs_scrollcinema_nude_arquitetura_hero",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\docs\\scrollcinema.md",
+      "source_location": "lines 5, 140",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_scrollcinema_repeat_checklist",
+      "target": "docs_scrollcinema_1920px_floor",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\docs\\scrollcinema.md",
+      "source_location": "section 06, line 124",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_scrollcinema_repeat_checklist",
+      "target": "docs_scrollcinema_keyframe_verification",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\docs\\scrollcinema.md",
+      "source_location": "section 06, line 126",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_scrollcinema_repeat_checklist",
+      "target": "docs_scrollcinema_autoplay_loop_conflict",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\docs\\scrollcinema.md",
+      "source_location": "section 06, line 128",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_scrollcinema_repeat_checklist",
+      "target": "docs_scrollcinema_raf_hidden_tab_pitfall",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\docs\\scrollcinema.md",
+      "source_location": "section 06, line 130",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_scrollcinema_no_source_video_fallback",
+      "target": "docs_scrollcinema_minterpolate_60fps",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\docs\\scrollcinema.md",
+      "source_location": "section 06, line 138",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_scrollcinema_no_source_video_fallback",
+      "target": "docs_scrollcinema_keyint_1",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\docs\\scrollcinema.md",
+      "source_location": "section 06, line 138",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_scrollcinema_sticky_scroll_binding",
+      "target": "readme_nextjs_project",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\docs\\scrollcinema.md",
+      "source_location": "section 04, line 84 (React / vanilla JS)",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_scrollcinema_raf_hidden_tab_pitfall",
+      "target": "docs_scrollcinema_autoplay_loop_conflict",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\docs\\scrollcinema.md",
+      "source_location": "section 04",
+      "weight": 1.0
+    },
+    {
+      "source": "agents_next_dist_docs",
+      "target": "docs_scrollcinema_scroll_cinema",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\AGENTS.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_scrollcinema_1920px_floor",
+      "target": "docs_scrollcinema_no_source_video_fallback",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\docs\\scrollcinema.md",
+      "source_location": "sections 03, 06",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "scrollcinema_encode_pipeline",
+      "label": "Scroll Cinema FFmpeg Encode Pipeline",
+      "nodes": [
+        "docs_scrollcinema_ffmpeg",
+        "docs_scrollcinema_minterpolate_60fps",
+        "docs_scrollcinema_keyint_1",
+        "docs_scrollcinema_keyframe_verification",
+        "docs_scrollcinema_1920px_floor"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\docs\\scrollcinema.md"
+    },
+    {
+      "id": "scrollcinema_browser_binding_flow",
+      "label": "Browser-Side Scroll Binding and Its Pitfalls",
+      "nodes": [
+        "docs_scrollcinema_sticky_scroll_binding",
+        "docs_scrollcinema_autoplay_loop_conflict",
+        "docs_scrollcinema_raf_hidden_tab_pitfall",
+        "docs_scrollcinema_seek_benchmark"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\docs\\scrollcinema.md"
+    },
+    {
+      "id": "pfconnect_nextjs_project_setup",
+      "label": "PF-connect Next.js Project Setup Conventions",
+      "nodes": [
+        "readme_nextjs_project",
+        "readme_dev_server",
+        "readme_next_font_geist",
+        "readme_vercel_deploy",
+        "agents_nextjs_agent_rules"
+      ],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\README.md"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

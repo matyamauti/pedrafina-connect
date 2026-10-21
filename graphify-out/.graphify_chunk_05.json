@@ -1,0 +1,233 @@
+{
+  "nodes": [
+    {
+      "id": "public_conquistas_macbook",
+      "label": "MacBook Reward Lifestyle Photo",
+      "file_type": "image",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\macbook.webp",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_conquistas_macbook_silver_laptop_subject",
+      "label": "Silver Apple MacBook (Hero Subject)",
+      "file_type": "image",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\macbook.webp",
+      "source_location": "center-right of frame, lid open, rear three-quarter view",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_conquistas_macbook_premium_workspace_setting",
+      "label": "Premium Wood Desk Workspace Setting",
+      "file_type": "image",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\macbook.webp",
+      "source_location": "foreground walnut table with marble-capped glass, tray and eucalyptus sprigs",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_conquistas_macbook_warm_cinematic_lighting",
+      "label": "Warm Golden Cinematic Lighting Treatment",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\macbook.webp",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_conquistas_macbook_shallow_depth_of_field",
+      "label": "Shallow Depth of Field / Bokeh Framing",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\macbook.webp",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_conquistas_macbook_aspirational_reward_imagery",
+      "label": "Aspirational Reward Imagery Design Decision",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\macbook.webp",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_conquistas_conquistas_asset_collection",
+      "label": "Conquistas (Achievements/Rewards) Asset Collection",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\macbook.webp",
+      "source_location": "public/conquistas/",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_conquistas_macbook_webp_optimized_delivery",
+      "label": "WebP Optimized Image Delivery",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\macbook.webp",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_conquistas_macbook_apple_brand_mark",
+      "label": "Apple Logo Brand Mark",
+      "file_type": "image",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\macbook.webp",
+      "source_location": "centered on laptop lid",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "public_conquistas_macbook",
+      "target": "public_conquistas_macbook_silver_laptop_subject",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\macbook.webp",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_conquistas_macbook",
+      "target": "public_conquistas_macbook_premium_workspace_setting",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\macbook.webp",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_conquistas_macbook_silver_laptop_subject",
+      "target": "public_conquistas_macbook_apple_brand_mark",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\macbook.webp",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_conquistas_macbook_warm_cinematic_lighting",
+      "target": "public_conquistas_macbook",
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\macbook.webp",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_conquistas_macbook_shallow_depth_of_field",
+      "target": "public_conquistas_macbook_silver_laptop_subject",
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\macbook.webp",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_conquistas_macbook_aspirational_reward_imagery",
+      "target": "public_conquistas_macbook",
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\macbook.webp",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_conquistas_macbook",
+      "target": "public_conquistas_conquistas_asset_collection",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\macbook.webp",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_conquistas_macbook",
+      "target": "public_conquistas_macbook_webp_optimized_delivery",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\macbook.webp",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_conquistas_macbook_premium_workspace_setting",
+      "target": "public_conquistas_macbook_aspirational_reward_imagery",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\macbook.webp",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_conquistas_macbook_warm_cinematic_lighting",
+      "target": "public_conquistas_macbook_shallow_depth_of_field",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\macbook.webp",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_conquistas_macbook_apple_brand_mark",
+      "target": "public_conquistas_macbook_aspirational_reward_imagery",
+      "relation": "conceptually_related_to",
+      "confidence": "AMBIGUOUS",
+      "confidence_score": 0.3,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\macbook.webp",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "macbook_luxury_product_photography_language",
+      "label": "Luxury Product Photography Visual Language",
+      "nodes": [
+        "public_conquistas_macbook_silver_laptop_subject",
+        "public_conquistas_macbook_premium_workspace_setting",
+        "public_conquistas_macbook_warm_cinematic_lighting",
+        "public_conquistas_macbook_shallow_depth_of_field"
+      ],
+      "relation": "form",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\macbook.webp"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

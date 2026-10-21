@@ -1,0 +1,191 @@
+{
+  "nodes": [
+    {
+      "id": "public_parceiros_my_arquitetura_cor_my_arquitetura_brand",
+      "label": "MY Arquitetura (Brand)",
+      "file_type": "image",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\my-arquitetura-cor.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_parceiros_my_arquitetura_cor_my_monogram",
+      "label": "MY Monogram Symbol (interlocking M and Y strokes)",
+      "file_type": "image",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\my-arquitetura-cor.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_parceiros_my_arquitetura_cor_wordmark",
+      "label": "Wordmark MY ARQUITETURA (wide-tracked serif capitals)",
+      "file_type": "image",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\my-arquitetura-cor.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_parceiros_my_arquitetura_cor_signature_mariana_yamauti",
+      "label": "Handwritten Signature Mariana Yamauti",
+      "file_type": "image",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\my-arquitetura-cor.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_parceiros_my_arquitetura_cor_copper_gradient_palette",
+      "label": "Copper / Bronze Gradient Palette",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\my-arquitetura-cor.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_parceiros_my_arquitetura_cor_architect_personal_brand",
+      "label": "Architect Personal-Brand Identity (studio name plus founder signature)",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\my-arquitetura-cor.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_parceiros_my_arquitetura_cor_partner_logo_asset",
+      "label": "Partner Logo Asset (color variant in public/parceiros)",
+      "file_type": "image",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\my-arquitetura-cor.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "public_parceiros_my_arquitetura_cor_my_monogram",
+      "target": "public_parceiros_my_arquitetura_cor_my_arquitetura_brand",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\my-arquitetura-cor.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_parceiros_my_arquitetura_cor_wordmark",
+      "target": "public_parceiros_my_arquitetura_cor_my_arquitetura_brand",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\my-arquitetura-cor.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_parceiros_my_arquitetura_cor_signature_mariana_yamauti",
+      "target": "public_parceiros_my_arquitetura_cor_my_arquitetura_brand",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\my-arquitetura-cor.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_parceiros_my_arquitetura_cor_copper_gradient_palette",
+      "target": "public_parceiros_my_arquitetura_cor_my_arquitetura_brand",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\my-arquitetura-cor.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_parceiros_my_arquitetura_cor_my_monogram",
+      "target": "public_parceiros_my_arquitetura_cor_copper_gradient_palette",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\my-arquitetura-cor.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_parceiros_my_arquitetura_cor_architect_personal_brand",
+      "target": "public_parceiros_my_arquitetura_cor_signature_mariana_yamauti",
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\my-arquitetura-cor.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_parceiros_my_arquitetura_cor_my_arquitetura_brand",
+      "target": "public_parceiros_my_arquitetura_cor_partner_logo_asset",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\my-arquitetura-cor.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_parceiros_my_arquitetura_cor_my_monogram",
+      "target": "public_parceiros_my_arquitetura_cor_architect_personal_brand",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\my-arquitetura-cor.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_parceiros_my_arquitetura_cor_signature_mariana_yamauti",
+      "target": "public_parceiros_my_arquitetura_cor_wordmark",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\my-arquitetura-cor.png",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "my_arquitetura_logo_lockup",
+      "label": "MY Arquitetura stacked logo lockup: monogram over wordmark over signature in copper gradient",
+      "nodes": [
+        "public_parceiros_my_arquitetura_cor_my_monogram",
+        "public_parceiros_my_arquitetura_cor_wordmark",
+        "public_parceiros_my_arquitetura_cor_signature_mariana_yamauti",
+        "public_parceiros_my_arquitetura_cor_copper_gradient_palette"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\my-arquitetura-cor.png"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

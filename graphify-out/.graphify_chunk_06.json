@@ -1,0 +1,222 @@
+{
+  "nodes": [
+    {
+      "id": "public_conquistas_machu_picchu_photo",
+      "label": "Machu Picchu Landscape Photograph (conquistas asset)",
+      "file_type": "image",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\machu-picchu.webp",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_conquistas_machu_picchu_inca_citadel",
+      "label": "Inca Citadel of Machu Picchu",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\machu-picchu.webp",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_conquistas_machu_picchu_huayna_picchu_peak",
+      "label": "Huayna Picchu Peak Backdrop",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\machu-picchu.webp",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_conquistas_machu_picchu_andean_terraces",
+      "label": "Andean Agricultural Stone Terraces",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\machu-picchu.webp",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_conquistas_machu_picchu_visitors_scale",
+      "label": "Tourists Giving Human Scale to the Ruins",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\machu-picchu.webp",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_conquistas_machu_picchu_conquistas_gallery_asset",
+      "label": "Conquistas (Achievements) Destination Card Imagery",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\machu-picchu.webp",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_conquistas_machu_picchu_aspirational_travel_imagery",
+      "label": "Aspirational Bucket-List Travel Imagery",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\machu-picchu.webp",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_conquistas_machu_picchu_webp_optimized_asset",
+      "label": "WebP Optimized Web Image Asset",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\machu-picchu.webp",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "public_conquistas_machu_picchu_photo",
+      "target": "public_conquistas_machu_picchu_inca_citadel",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\machu-picchu.webp",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_conquistas_machu_picchu_photo",
+      "target": "public_conquistas_machu_picchu_huayna_picchu_peak",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\machu-picchu.webp",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_conquistas_machu_picchu_photo",
+      "target": "public_conquistas_machu_picchu_andean_terraces",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\machu-picchu.webp",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_conquistas_machu_picchu_photo",
+      "target": "public_conquistas_machu_picchu_visitors_scale",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\machu-picchu.webp",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_conquistas_machu_picchu_andean_terraces",
+      "target": "public_conquistas_machu_picchu_inca_citadel",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\machu-picchu.webp",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_conquistas_machu_picchu_photo",
+      "target": "public_conquistas_machu_picchu_conquistas_gallery_asset",
+      "relation": "implements",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\machu-picchu.webp",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_conquistas_machu_picchu_aspirational_travel_imagery",
+      "target": "public_conquistas_machu_picchu_conquistas_gallery_asset",
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\machu-picchu.webp",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_conquistas_machu_picchu_visitors_scale",
+      "target": "public_conquistas_machu_picchu_aspirational_travel_imagery",
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\machu-picchu.webp",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_conquistas_machu_picchu_photo",
+      "target": "public_conquistas_machu_picchu_webp_optimized_asset",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\machu-picchu.webp",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_conquistas_machu_picchu_webp_optimized_asset",
+      "target": "public_conquistas_machu_picchu_conquistas_gallery_asset",
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\machu-picchu.webp",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_conquistas_machu_picchu_andean_terraces",
+      "target": "public_conquistas_machu_picchu_huayna_picchu_peak",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\machu-picchu.webp",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "machu_picchu_landscape_composition",
+      "label": "Citadel, Terraces, Peak and Visitors Compose the Machu Picchu Vista",
+      "nodes": [
+        "public_conquistas_machu_picchu_inca_citadel",
+        "public_conquistas_machu_picchu_andean_terraces",
+        "public_conquistas_machu_picchu_huayna_picchu_peak",
+        "public_conquistas_machu_picchu_visitors_scale"
+      ],
+      "relation": "form",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\machu-picchu.webp"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

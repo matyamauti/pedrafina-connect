@@ -1,0 +1,253 @@
+{
+  "nodes": [
+    {
+      "id": "public_parceiros_maga_paiva_cor_maga_paiva_brand",
+      "label": "Maga Paiva (Brand)",
+      "file_type": "image",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\maga-paiva-cor.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_parceiros_maga_paiva_cor_script_wordmark_maga",
+      "label": "Script Wordmark 'maga'",
+      "file_type": "image",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\maga-paiva-cor.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_parceiros_maga_paiva_cor_sans_wordmark_paiva",
+      "label": "Spaced Sans Wordmark 'PAIVA'",
+      "file_type": "image",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\maga-paiva-cor.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_parceiros_maga_paiva_cor_tagline_design_de_interiores",
+      "label": "Tagline 'DESIGN DE INTERIORES'",
+      "file_type": "image",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\maga-paiva-cor.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_parceiros_maga_paiva_cor_palette_sage_green_graphite",
+      "label": "Palette: Sage Green + Graphite Gray",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\maga-paiva-cor.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_parceiros_maga_paiva_cor_overlap_lockup",
+      "label": "Overlapping Script-over-Sans Lockup",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\maga-paiva-cor.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_parceiros_maga_paiva_cor_color_variant_asset",
+      "label": "Color Variant Logo Asset (-cor)",
+      "file_type": "image",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\maga-paiva-cor.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_parceiros_maga_paiva_cor_partner_logo_wall",
+      "label": "Partner Logo Wall Asset (public/parceiros)",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\maga-paiva-cor.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_parceiros_maga_paiva_cor_interior_design_segment",
+      "label": "Interior Design Service Segment",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\maga-paiva-cor.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "public_parceiros_maga_paiva_cor_maga_paiva_brand",
+      "target": "public_parceiros_maga_paiva_cor_script_wordmark_maga",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\maga-paiva-cor.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_parceiros_maga_paiva_cor_maga_paiva_brand",
+      "target": "public_parceiros_maga_paiva_cor_sans_wordmark_paiva",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\maga-paiva-cor.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_parceiros_maga_paiva_cor_maga_paiva_brand",
+      "target": "public_parceiros_maga_paiva_cor_tagline_design_de_interiores",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\maga-paiva-cor.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_parceiros_maga_paiva_cor_maga_paiva_brand",
+      "target": "public_parceiros_maga_paiva_cor_palette_sage_green_graphite",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\maga-paiva-cor.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_parceiros_maga_paiva_cor_script_wordmark_maga",
+      "target": "public_parceiros_maga_paiva_cor_overlap_lockup",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\maga-paiva-cor.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_parceiros_maga_paiva_cor_sans_wordmark_paiva",
+      "target": "public_parceiros_maga_paiva_cor_overlap_lockup",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\maga-paiva-cor.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_parceiros_maga_paiva_cor_overlap_lockup",
+      "target": "public_parceiros_maga_paiva_cor_maga_paiva_brand",
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\maga-paiva-cor.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_parceiros_maga_paiva_cor_color_variant_asset",
+      "target": "public_parceiros_maga_paiva_cor_maga_paiva_brand",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\maga-paiva-cor.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_parceiros_maga_paiva_cor_color_variant_asset",
+      "target": "public_parceiros_maga_paiva_cor_partner_logo_wall",
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\maga-paiva-cor.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_parceiros_maga_paiva_cor_tagline_design_de_interiores",
+      "target": "public_parceiros_maga_paiva_cor_interior_design_segment",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\maga-paiva-cor.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_parceiros_maga_paiva_cor_palette_sage_green_graphite",
+      "target": "public_parceiros_maga_paiva_cor_interior_design_segment",
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\maga-paiva-cor.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_parceiros_maga_paiva_cor_maga_paiva_brand",
+      "target": "public_parceiros_maga_paiva_cor_interior_design_segment",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\maga-paiva-cor.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_parceiros_maga_paiva_cor_color_variant_asset",
+      "target": "public_parceiros_maga_paiva_cor_palette_sage_green_graphite",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\maga-paiva-cor.png",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "maga_paiva_logo_lockup_system",
+      "label": "Maga Paiva Logo Lockup System",
+      "nodes": [
+        "public_parceiros_maga_paiva_cor_script_wordmark_maga",
+        "public_parceiros_maga_paiva_cor_sans_wordmark_paiva",
+        "public_parceiros_maga_paiva_cor_tagline_design_de_interiores",
+        "public_parceiros_maga_paiva_cor_palette_sage_green_graphite"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\maga-paiva-cor.png"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

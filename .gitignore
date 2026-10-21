@@ -39,3 +39,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# material de origem: nao vai para producao
+/parceiros
+/assets-fonte
+/.claude
+
+.vercel

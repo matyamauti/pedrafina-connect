@@ -1,0 +1,222 @@
+{
+  "nodes": [
+    {
+      "id": "public_conquistas_vale_jantar_image",
+      "label": "Vale-Jantar Para o Casal Reward Image",
+      "file_type": "image",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\vale-jantar.webp",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_conquistas_vale_jantar_vale_jantar_reward",
+      "label": "Vale-Jantar (Couple Dinner Voucher Reward)",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\vale-jantar.webp",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_conquistas_vale_jantar_conquistas_asset_set",
+      "label": "Conquistas (Achievements) Asset Set",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\vale-jantar.webp",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_conquistas_vale_jantar_romantic_luxury_art_direction",
+      "label": "Romantic Luxury Art Direction (Black and Gold, Candlelit Warmth)",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\vale-jantar.webp",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_conquistas_vale_jantar_interlocked_hearts_mark",
+      "label": "Interlocked Hearts Gold Monogram",
+      "file_type": "image",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\vale-jantar.webp",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_conquistas_vale_jantar_couple_relationship_milestone",
+      "label": "Couple Relationship Milestone Incentive",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\vale-jantar.webp",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_conquistas_vale_jantar_fine_dining_table_setting_staging",
+      "label": "Fine Dining Table Setting Product Staging",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\vale-jantar.webp",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_conquistas_vale_jantar_webp_delivery_format",
+      "label": "WebP Static Asset Delivery",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\vale-jantar.webp",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "public_conquistas_vale_jantar_image",
+      "target": "public_conquistas_vale_jantar_vale_jantar_reward",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\vale-jantar.webp",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_conquistas_vale_jantar_image",
+      "target": "public_conquistas_vale_jantar_interlocked_hearts_mark",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\vale-jantar.webp",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_conquistas_vale_jantar_image",
+      "target": "public_conquistas_vale_jantar_conquistas_asset_set",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\vale-jantar.webp",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_conquistas_vale_jantar_romantic_luxury_art_direction",
+      "target": "public_conquistas_vale_jantar_image",
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\vale-jantar.webp",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_conquistas_vale_jantar_couple_relationship_milestone",
+      "target": "public_conquistas_vale_jantar_vale_jantar_reward",
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\vale-jantar.webp",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_conquistas_vale_jantar_fine_dining_table_setting_staging",
+      "target": "public_conquistas_vale_jantar_romantic_luxury_art_direction",
+      "relation": "implements",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\vale-jantar.webp",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_conquistas_vale_jantar_interlocked_hearts_mark",
+      "target": "public_conquistas_vale_jantar_couple_relationship_milestone",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\vale-jantar.webp",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_conquistas_vale_jantar_image",
+      "target": "public_conquistas_vale_jantar_webp_delivery_format",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\vale-jantar.webp",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_conquistas_vale_jantar_vale_jantar_reward",
+      "target": "public_conquistas_vale_jantar_conquistas_asset_set",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\vale-jantar.webp",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_conquistas_vale_jantar_interlocked_hearts_mark",
+      "target": "public_conquistas_vale_jantar_romantic_luxury_art_direction",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\vale-jantar.webp",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_conquistas_vale_jantar_vale_jantar_reward",
+      "target": "public_conquistas_vale_jantar_fine_dining_table_setting_staging",
+      "relation": "shares_data_with",
+      "confidence": "AMBIGUOUS",
+      "confidence_score": 0.3,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\vale-jantar.webp",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "vale_jantar_reward_visual_language",
+      "label": "Vale-Jantar Reward Visual Language",
+      "nodes": [
+        "public_conquistas_vale_jantar_image",
+        "public_conquistas_vale_jantar_romantic_luxury_art_direction",
+        "public_conquistas_vale_jantar_interlocked_hearts_mark",
+        "public_conquistas_vale_jantar_fine_dining_table_setting_staging"
+      ],
+      "relation": "form",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\vale-jantar.webp"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

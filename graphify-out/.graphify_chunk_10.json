@@ -1,0 +1,353 @@
+{
+  "nodes": [
+    {
+      "id": "public_hero_hero_poster",
+      "label": "Hero Poster Image (Luxury Living Room Render)",
+      "file_type": "image",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\hero\\hero-poster.webp",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_hero_hero_poster_video_poster_frame",
+      "label": "Video Poster Frame Role",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\hero\\hero-poster.webp",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_hero_hero_poster_marble_feature_wall",
+      "label": "Book-Matched Dark Marble Feature Wall",
+      "file_type": "image",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\hero\\hero-poster.webp",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_hero_hero_poster_linear_fireplace",
+      "label": "Linear Gas Fireplace Insert",
+      "file_type": "image",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\hero\\hero-poster.webp",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_hero_hero_poster_marble_coffee_table",
+      "label": "Monolithic Marble Coffee Table",
+      "file_type": "image",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\hero\\hero-poster.webp",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_hero_hero_poster_floor_to_ceiling_glazing",
+      "label": "Floor-to-Ceiling Glazing with Sunset View",
+      "file_type": "image",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\hero\\hero-poster.webp",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_hero_hero_poster_sectional_sofa_seating",
+      "label": "Cream Sectional Sofa and Boucle Armchair",
+      "file_type": "image",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\hero\\hero-poster.webp",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_hero_hero_poster_warm_cove_lighting",
+      "label": "Warm Cove and Shelf Lighting Scheme",
+      "file_type": "image",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\hero\\hero-poster.webp",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_hero_hero_poster_luxury_interior_positioning",
+      "label": "High-End Interior Finishes Brand Positioning",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\hero\\hero-poster.webp",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_hero_hero_poster_dark_warm_palette",
+      "label": "Dark Warm Palette (Espresso, Amber, Cream)",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\hero\\hero-poster.webp",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_hero_hero_poster_text_overlay_contrast",
+      "label": "Dark Backdrop Supports Light Hero Text Overlay",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\hero\\hero-poster.webp",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_hero_hero_poster_widescreen_cinematic_framing",
+      "label": "16:9 Cinematic Widescreen Framing",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\hero\\hero-poster.webp",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_hero_hero_poster_webp_lcp_optimization",
+      "label": "WebP Format for Fast Hero LCP",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\hero\\hero-poster.webp",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "public_hero_hero_poster",
+      "target": "public_hero_hero_poster_marble_feature_wall",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\hero\\hero-poster.webp",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_hero_hero_poster",
+      "target": "public_hero_hero_poster_linear_fireplace",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\hero\\hero-poster.webp",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_hero_hero_poster",
+      "target": "public_hero_hero_poster_marble_coffee_table",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\hero\\hero-poster.webp",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_hero_hero_poster",
+      "target": "public_hero_hero_poster_floor_to_ceiling_glazing",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\hero\\hero-poster.webp",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_hero_hero_poster",
+      "target": "public_hero_hero_poster_sectional_sofa_seating",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\hero\\hero-poster.webp",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_hero_hero_poster",
+      "target": "public_hero_hero_poster_warm_cove_lighting",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\hero\\hero-poster.webp",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_hero_hero_poster",
+      "target": "public_hero_hero_poster_video_poster_frame",
+      "relation": "implements",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\hero\\hero-poster.webp",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_hero_hero_poster_luxury_interior_positioning",
+      "target": "public_hero_hero_poster",
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\hero\\hero-poster.webp",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_hero_hero_poster_dark_warm_palette",
+      "target": "public_hero_hero_poster",
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\hero\\hero-poster.webp",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_hero_hero_poster_text_overlay_contrast",
+      "target": "public_hero_hero_poster_video_poster_frame",
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\hero\\hero-poster.webp",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_hero_hero_poster_dark_warm_palette",
+      "target": "public_hero_hero_poster_text_overlay_contrast",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\hero\\hero-poster.webp",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_hero_hero_poster_widescreen_cinematic_framing",
+      "target": "public_hero_hero_poster",
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\hero\\hero-poster.webp",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_hero_hero_poster_webp_lcp_optimization",
+      "target": "public_hero_hero_poster",
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\hero\\hero-poster.webp",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_hero_hero_poster_webp_lcp_optimization",
+      "target": "public_hero_hero_poster_video_poster_frame",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\hero\\hero-poster.webp",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_hero_hero_poster_marble_feature_wall",
+      "target": "public_hero_hero_poster_marble_coffee_table",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\hero\\hero-poster.webp",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_hero_hero_poster_linear_fireplace",
+      "target": "public_hero_hero_poster_warm_cove_lighting",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\hero\\hero-poster.webp",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_hero_hero_poster_floor_to_ceiling_glazing",
+      "target": "public_hero_hero_poster_warm_cove_lighting",
+      "relation": "conceptually_related_to",
+      "confidence": "AMBIGUOUS",
+      "confidence_score": 0.3,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\hero\\hero-poster.webp",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "hero_poster_luxury_scene_composition",
+      "label": "Luxury Interior Hero Scene Composition",
+      "nodes": [
+        "public_hero_hero_poster_marble_feature_wall",
+        "public_hero_hero_poster_linear_fireplace",
+        "public_hero_hero_poster_marble_coffee_table",
+        "public_hero_hero_poster_warm_cove_lighting",
+        "public_hero_hero_poster_floor_to_ceiling_glazing"
+      ],
+      "relation": "form",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\hero\\hero-poster.webp"
+    },
+    {
+      "id": "hero_poster_art_direction_decisions",
+      "label": "Hero Art Direction and Delivery Decisions",
+      "nodes": [
+        "public_hero_hero_poster_dark_warm_palette",
+        "public_hero_hero_poster_text_overlay_contrast",
+        "public_hero_hero_poster_widescreen_cinematic_framing",
+        "public_hero_hero_poster_webp_lcp_optimization",
+        "public_hero_hero_poster_video_poster_frame"
+      ],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\hero\\hero-poster.webp"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

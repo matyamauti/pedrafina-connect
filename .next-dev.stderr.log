@@ -1,0 +1,115 @@
+⨯ ./src/app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/sections/RewardsTimeline'
+  [90m2 |[0m [36mimport[0m { [33mWhoBelongs[0m } [36mfrom[0m [32m"@/components/sections/WhoBelongs"[0m;
+  [90m3 |[0m [36mimport[0m { [33mPointsLogic[0m } [36mfrom[0m [32m"@/components/sections/PointsLogic"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mRewardsTimeline[0m } [36mfrom[0m [32m"@/components/sections/RewardsTimeline"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m { [33mProjectsPreview[0m } [36mfrom[0m [32m"@/components/sections/ProjectsPreview"[0m;
+  [90m6 |[0m [36mimport[0m { [33mReferralPanel[0m } [36mfrom[0m [32m"@/components/sections/ReferralPanel"[0m;
+  [90m7 |[0m [36mimport[0m { [33mClosingCTA[0m } [36mfrom[0m [32m"@/components/sections/ClosingCTA"[0m;
+
+Import map: aliased to relative './src/components/sections/RewardsTimeline' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/sections/RewardsTimeline'
+  [90m2 |[0m [36mimport[0m { [33mWhoBelongs[0m } [36mfrom[0m [32m"@/components/sections/WhoBelongs"[0m;
+  [90m3 |[0m [36mimport[0m { [33mPointsLogic[0m } [36mfrom[0m [32m"@/components/sections/PointsLogic"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mRewardsTimeline[0m } [36mfrom[0m [32m"@/components/sections/RewardsTimeline"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m { [33mProjectsPreview[0m } [36mfrom[0m [32m"@/components/sections/ProjectsPreview"[0m;
+  [90m6 |[0m [36mimport[0m { [33mReferralPanel[0m } [36mfrom[0m [32m"@/components/sections/ReferralPanel"[0m;
+  [90m7 |[0m [36mimport[0m { [33mClosingCTA[0m } [36mfrom[0m [32m"@/components/sections/ClosingCTA"[0m;
+
+Import map: aliased to relative './src/components/sections/RewardsTimeline' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/sections/RewardsTimeline'
+  [90m2 |[0m [36mimport[0m { [33mWhoBelongs[0m } [36mfrom[0m [32m"@/components/sections/WhoBelongs"[0m;
+  [90m3 |[0m [36mimport[0m { [33mPointsLogic[0m } [36mfrom[0m [32m"@/components/sections/PointsLogic"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mRewardsTimeline[0m } [36mfrom[0m [32m"@/components/sections/RewardsTimeline"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m { [33mProjectsPreview[0m } [36mfrom[0m [32m"@/components/sections/ProjectsPreview"[0m;
+  [90m6 |[0m [36mimport[0m { [33mReferralPanel[0m } [36mfrom[0m [32m"@/components/sections/ReferralPanel"[0m;
+  [90m7 |[0m [36mimport[0m { [33mClosingCTA[0m } [36mfrom[0m [32m"@/components/sections/ClosingCTA"[0m;
+
+Import map: aliased to relative './src/components/sections/RewardsTimeline' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/sections/RewardsTimeline'
+  [90m2 |[0m [36mimport[0m { [33mWhoBelongs[0m } [36mfrom[0m [32m"@/components/sections/WhoBelongs"[0m;
+  [90m3 |[0m [36mimport[0m { [33mPointsLogic[0m } [36mfrom[0m [32m"@/components/sections/PointsLogic"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mRewardsTimeline[0m } [36mfrom[0m [32m"@/components/sections/RewardsTimeline"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m { [33mProjectsPreview[0m } [36mfrom[0m [32m"@/components/sections/ProjectsPreview"[0m;
+  [90m6 |[0m [36mimport[0m { [33mReferralPanel[0m } [36mfrom[0m [32m"@/components/sections/ReferralPanel"[0m;
+  [90m7 |[0m [36mimport[0m { [33mClosingCTA[0m } [36mfrom[0m [32m"@/components/sections/ClosingCTA"[0m;
+
+Import map: aliased to relative './src/components/sections/RewardsTimeline' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/sections/RewardsTimeline'
+  [90m2 |[0m [36mimport[0m { [33mWhoBelongs[0m } [36mfrom[0m [32m"@/components/sections/WhoBelongs"[0m;
+  [90m3 |[0m [36mimport[0m { [33mPointsLogic[0m } [36mfrom[0m [32m"@/components/sections/PointsLogic"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mRewardsTimeline[0m } [36mfrom[0m [32m"@/components/sections/RewardsTimeline"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m { [33mProjectsPreview[0m } [36mfrom[0m [32m"@/components/sections/ProjectsPreview"[0m;
+  [90m6 |[0m [36mimport[0m { [33mReferralPanel[0m } [36mfrom[0m [32m"@/components/sections/ReferralPanel"[0m;
+  [90m7 |[0m [36mimport[0m { [33mClosingCTA[0m } [36mfrom[0m [32m"@/components/sections/ClosingCTA"[0m;
+
+Import map: aliased to relative './src/components/sections/RewardsTimeline' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/sections/RewardsTimeline'
+  [90m2 |[0m [36mimport[0m { [33mWhoBelongs[0m } [36mfrom[0m [32m"@/components/sections/WhoBelongs"[0m;
+  [90m3 |[0m [36mimport[0m { [33mPointsLogic[0m } [36mfrom[0m [32m"@/components/sections/PointsLogic"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mRewardsTimeline[0m } [36mfrom[0m [32m"@/components/sections/RewardsTimeline"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m { [33mProjectsPreview[0m } [36mfrom[0m [32m"@/components/sections/ProjectsPreview"[0m;
+  [90m6 |[0m [36mimport[0m { [33mReferralPanel[0m } [36mfrom[0m [32m"@/components/sections/ReferralPanel"[0m;
+  [90m7 |[0m [36mimport[0m { [33mClosingCTA[0m } [36mfrom[0m [32m"@/components/sections/ClosingCTA"[0m;
+
+Import map: aliased to relative './src/components/sections/RewardsTimeline' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[browser] ./src/app/page.tsx:4:1
+Error: Module not found: Can't resolve '@/components/sections/RewardsTimeline'
+  2 | import { WhoBelongs } from "@/components/sections/WhoBelongs";
+  3 | import { PointsLogic } from "@/components/sections/PointsLogic";
+> 4 | import { RewardsTimeline } from "@/components/sections/RewardsTimeline";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ProjectsPreview } from "@/components/sections/ProjectsPreview";
+  6 | import { ReferralPanel } from "@/components/sections/ReferralPanel";
+  7 | import { ClosingCTA } from "@/components/sections/ClosingCTA";
+
+Import map: aliased to relative './src/components/sections/RewardsTimeline' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found 
+Persisting failed: Unable to commit snapshot
+
+Caused by:
+    0: Unable to write meta file 00000166.meta
+    1: failed to create file `\\?\C:\Users\redac\OneDrive\Desktop\Projetos\PF-connect\.next\dev\cache\turbopack\v16.4.1-7217011a\00000166.meta`: A operação solicitada não pode ser executada em um arquivo com uma seção mapeada pelo usuário aberta. (os error 1224)
+Persisting is disabled for this session due to an unrecoverable error. Stopping the background persisting process.

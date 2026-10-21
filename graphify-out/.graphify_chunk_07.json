@@ -1,0 +1,202 @@
+{
+  "nodes": [
+    {
+      "id": "public_conquistas_terraco_italia_image",
+      "label": "Terraco Italia Achievement Photo",
+      "file_type": "image",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\terraco-italia.webp",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_conquistas_terraco_italia_skyline_lounge_venue",
+      "label": "High-Rise Skyline Lounge Venue",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\terraco-italia.webp",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_conquistas_terraco_italia_grand_piano",
+      "label": "Grand Piano and Live Music Setting",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\terraco-italia.webp",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_conquistas_terraco_italia_night_cityscape_backdrop",
+      "label": "Panoramic Night Cityscape Backdrop",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\terraco-italia.webp",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_conquistas_terraco_italia_warm_luxury_palette",
+      "label": "Warm Amber and Mahogany Luxury Palette",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\terraco-italia.webp",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_conquistas_terraco_italia_conquistas_asset_set",
+      "label": "Conquistas (Achievements) Image Asset Set",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\terraco-italia.webp",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_conquistas_terraco_italia_prestige_social_proof",
+      "label": "Prestige-as-Social-Proof Rationale",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\terraco-italia.webp",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_conquistas_terraco_italia_webp_optimized_delivery",
+      "label": "WebP Optimized Static Asset Delivery",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\terraco-italia.webp",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "public_conquistas_terraco_italia_image",
+      "target": "public_conquistas_terraco_italia_skyline_lounge_venue",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\terraco-italia.webp",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_conquistas_terraco_italia_image",
+      "target": "public_conquistas_terraco_italia_grand_piano",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\terraco-italia.webp",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_conquistas_terraco_italia_image",
+      "target": "public_conquistas_terraco_italia_night_cityscape_backdrop",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\terraco-italia.webp",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_conquistas_terraco_italia_image",
+      "target": "public_conquistas_terraco_italia_warm_luxury_palette",
+      "relation": "implements",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\terraco-italia.webp",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_conquistas_terraco_italia_image",
+      "target": "public_conquistas_terraco_italia_conquistas_asset_set",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\terraco-italia.webp",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_conquistas_terraco_italia_prestige_social_proof",
+      "target": "public_conquistas_terraco_italia_image",
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\terraco-italia.webp",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_conquistas_terraco_italia_image",
+      "target": "public_conquistas_terraco_italia_webp_optimized_delivery",
+      "relation": "implements",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\terraco-italia.webp",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_conquistas_terraco_italia_night_cityscape_backdrop",
+      "target": "public_conquistas_terraco_italia_warm_luxury_palette",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\terraco-italia.webp",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_conquistas_terraco_italia_grand_piano",
+      "target": "public_conquistas_terraco_italia_prestige_social_proof",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\terraco-italia.webp",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "terraco_italia_aspirational_venue_scene",
+      "label": "Aspirational Venue Scene Composition",
+      "nodes": [
+        "public_conquistas_terraco_italia_skyline_lounge_venue",
+        "public_conquistas_terraco_italia_grand_piano",
+        "public_conquistas_terraco_italia_night_cityscape_backdrop",
+        "public_conquistas_terraco_italia_warm_luxury_palette"
+      ],
+      "relation": "form",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\terraco-italia.webp"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

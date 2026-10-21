@@ -1,26 +1,87 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
+/* Fontes expostas pelo next/font no <html>. */
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-display: var(--font-archivo), Arial, sans-serif;
+  --font-sans: var(--font-archivo), Arial, sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@theme {
+  /* Superfícies — amostradas do deck original. */
+  --color-pf-black: #000000;
+  --color-pf-graphite: #0a0a0a;
+  --color-pf-cream: #f4f1eb;
+  --color-pf-stone-200: #ddd8cd;
+  --color-pf-stone-300: #c8c3b9;
+
+  /* Dourado. --pf-gold é o dourado do deck (7.8:1 sobre preto, AAA).
+     Sobre o creme ele cai para 2.6:1, então texto pequeno em superfície
+     clara usa --pf-gold-ink (5.1:1, AA). */
+  --color-pf-gold: #b79a62;
+  --color-pf-gold-ink: #7a6234;
+
+  /* Rampa metálica da logomarca, reservada ao monograma. */
+  --color-pf-metal-100: #fdf6b7;
+  --color-pf-metal-200: #f8d774;
+  --color-pf-metal-300: #ce9c43;
+  --color-pf-metal-400: #9f6f26;
+  --color-pf-metal-500: #644a1f;
+
+  /* Escala de leitura para a família única: títulos, subtítulos e rótulos. */
+  --text-eyebrow: 0.75rem;
+  --text-eyebrow--line-height: 1.35;
+  --text-eyebrow--letter-spacing: 0.12em;
+  --text-display-sm: clamp(1.5rem, 1.15rem + 1.4vw, 2.25rem);
+  --text-display-sm--line-height: 1.2;
+  --text-display-md: clamp(2rem, 1.4rem + 2.4vw, 3.25rem);
+  --text-display-md--line-height: 1.13;
+  --text-display-lg: clamp(2.5rem, 1.6rem + 3.5vw, 4.75rem);
+  --text-display-lg--line-height: 1.08;
+
+  /* Curvas: ease-out forte para entrada, nunca ease-in. */
+  --ease-pf: cubic-bezier(0.23, 1, 0.32, 1);
+  --ease-pf-inout: cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-gutter: stable;
+  }
+
+  body {
+    background-color: var(--color-pf-black);
+    color: var(--color-pf-cream);
+    font-family: var(--font-sans);
+    font-synthesis-weight: none;
+    text-rendering: optimizeLegibility;
+    overscroll-behavior-y: none;
+  }
+
+  ::selection {
+    background-color: var(--color-pf-gold);
+    color: var(--color-pf-black);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-pf-gold);
+    outline-offset: 3px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@utility surface-light {
+  background-color: var(--color-pf-cream);
+  color: var(--color-pf-graphite);
 }

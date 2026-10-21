@@ -1,0 +1,88 @@
+▲ Next.js 16.4.1 (Turbopack)
+- Local:         http://localhost:3002
+- Network:       http://192.168.15.8:3002
+✓ Ready in 2.6s
+✓ Running next.config.ts took 382ms
+- Cache Components enabled
+- Partial Prefetching enabled
+
+○ Compiling /como-funciona ...
+ GET / 200 in 1806ms (next.js: 52ms, application-code: 1754ms)
+ GET /como-funciona 200 in 3.0s (next.js: 985ms, application-code: 2.0s)
+ GET / 200 in 529ms (next.js: 24ms, application-code: 505ms)
+○ Compiling /_not-found/page ...
+ GET /como-funciona 200 in 1234ms (next.js: 481ms, application-code: 754ms)
+ GET /parceiros 404 in 4.1s (next.js: 4.0s, application-code: 160ms)
+ GET /reconhecimento 404 in 104ms (next.js: 19ms, application-code: 84ms)
+ GET /reconhecimento 404 in 360ms (next.js: 55ms, application-code: 305ms)
+ GET /projetos 404 in 129ms (next.js: 83ms, application-code: 46ms)
+ GET /projetos 404 in 236ms (next.js: 43ms, application-code: 193ms)
+ GET /parceiros 404 in 72ms (next.js: 37ms, application-code: 35ms)
+ GET /parceiros 404 in 284ms (next.js: 43ms, application-code: 241ms)
+ GET / 200 in 75ms (next.js: 1.9ms, application-code: 73ms)
+ GET / 200 in 257ms (next.js: 3ms, application-code: 254ms)
+✓ Compiled in 1350ms
+✓ Compiled in 373ms
+ GET / 200 in 276ms (next.js: 31ms, application-code: 245ms)
+ GET / 200 in 549ms (next.js: 27ms, application-code: 522ms)
+✓ Compiled in 274ms
+ GET / 200 in 328ms (next.js: 17ms, application-code: 311ms)
+✓ Compiled in 281ms
+ GET / 200 in 230ms (next.js: 8ms, application-code: 221ms)
+ GET / 200 in 361ms (next.js: 9ms, application-code: 353ms)
+ GET / 200 in 790ms (next.js: 90ms, application-code: 700ms)
+✓ Compiled in 397ms
+ GET / 200 in 458ms (next.js: 32ms, application-code: 426ms)
+✓ Compiled in 159ms
+ GET / 200 in 304ms (next.js: 22ms, application-code: 283ms)
+ GET / 200 in 837ms (next.js: 23ms, application-code: 814ms)
+ GET / 200 in 584ms (next.js: 25ms, application-code: 559ms)
+✓ Compiled in 791ms
+✓ Compiled in 134ms
+ GET / 200 in 757ms (next.js: 64ms, application-code: 693ms)
+ GET / 200 in 1100ms (next.js: 70ms, application-code: 1030ms)
+ GET / 200 in 650ms (next.js: 9ms, application-code: 641ms)
+ GET / 200 in 1260ms (next.js: 39ms, application-code: 1221ms)
+ GET / 200 in 893ms (next.js: 45ms, application-code: 848ms)
+✓ Compiled in 1034ms
+ GET / 200 in 1156ms (next.js: 96ms, application-code: 1060ms)
+ GET / 200 in 1208ms (next.js: 49ms, application-code: 1159ms)
+ GET / 200 in 942ms (next.js: 16ms, application-code: 926ms)
+ GET / 200 in 1543ms (next.js: 105ms, application-code: 1438ms)
+ GET / 200 in 1090ms (next.js: 137ms, application-code: 952ms)
+ GET / 200 in 279ms (next.js: 13ms, application-code: 266ms)
+ GET / 200 in 1292ms (next.js: 50ms, application-code: 1242ms)
+ GET / 200 in 518ms (next.js: 22ms, application-code: 496ms)
+ GET / 200 in 411ms (next.js: 15ms, application-code: 396ms)
+✓ Compiled in 452ms
+ GET / 200 in 528ms (next.js: 44ms, application-code: 483ms)
+ GET / 200 in 152ms (next.js: 6ms, application-code: 146ms)
+ GET / 200 in 334ms (next.js: 12ms, application-code: 322ms)
+ GET / 200 in 533ms (next.js: 84ms, application-code: 449ms)
+ GET / 200 in 664ms (next.js: 29ms, application-code: 635ms)
+ GET / 200 in 189ms (next.js: 6ms, application-code: 183ms)
+ GET / 200 in 115ms (next.js: 2.0ms, application-code: 113ms)
+✓ Compiled in 189ms
+ GET / 200 in 262ms (next.js: 27ms, application-code: 236ms)
+ GET / 200 in 2.7s (next.js: 975ms, application-code: 1676ms)
+  Turbopack has seen frequent file updates and is waiting for the filesystem to settle (0.5s elapsed so far; last modified: "\\\\?\\C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\node_modules\\framer-motion\\dist\\mini.js").
+  Turbopack has seen frequent file updates and is waiting for the filesystem to settle (0.5s elapsed so far; last modified: "\\\\?\\C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\node_modules\\motion-utils\\dist").
+  Turbopack has seen frequent file updates and is waiting for the filesystem to settle (0.5s elapsed so far; last modified: "\\\\?\\C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\node_modules\\motion-utils\\dist\\es").
+  Turbopack has seen frequent file updates and is waiting for the filesystem to settle (0.5s elapsed so far; last modified: "\\\\?\\C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\node_modules\\motion-dom\\dist\\es\\stats").
+  Turbopack has seen frequent file updates and is waiting for the filesystem to settle (0.5s elapsed so far; last modified: "\\\\?\\C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\node_modules\\framer-motion\\dist\\es\\utils\\reduced-motion").
+  Turbopack has seen frequent file updates and is waiting for the filesystem to settle (1.5s elapsed so far; last modified: "\\\\?\\C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\node_modules\\motion-dom\\dist\\es\\utils\\mix").
+  Turbopack has seen frequent file updates and is waiting for the filesystem to settle (0.5s elapsed so far; last modified: "\\\\?\\C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\node_modules\\framer-motion\\dist\\animate-view.d.ts").
+  Turbopack has seen frequent file updates and is waiting for the filesystem to settle (0.5s elapsed so far; last modified: "\\\\?\\C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\node_modules\\framer-motion\\dist\\es\\animate-view.mjs").
+  Turbopack has seen frequent file updates and is waiting for the filesystem to settle (0.5s elapsed so far; last modified: "\\\\?\\C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\node_modules\\motion-utils\\dist\\es\\is-numerical-string.mjs.map").
+  Turbopack has seen frequent file updates and is waiting for the filesystem to settle (0.5s elapsed so far; last modified: "\\\\?\\C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\node_modules\\framer-motion\\dist\\es\\utils\\use-constant.mjs").
+  Turbopack has seen frequent file updates and is waiting for the filesystem to settle (0.5s elapsed so far; last modified: "\\\\?\\C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\node_modules\\motion-dom\\dist\\es\\frameloop\\render-step.mjs").
+  Turbopack has seen frequent file updates and is waiting for the filesystem to settle (0.5s elapsed so far; last modified: "\\\\?\\C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\node_modules\\motion-dom\\dist\\es\\value\\spring-value.mjs.map").
+  Turbopack has seen frequent file updates and is waiting for the filesystem to settle (0.5s elapsed so far; last modified: "\\\\?\\C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\node_modules\\motion-utils\\dist\\es\\easing\\anticipate.mjs").
+  Turbopack has seen frequent file updates and is waiting for the filesystem to settle (0.5s elapsed so far; last modified: "\\\\?\\C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\node_modules\\framer-motion\\dist\\es\\motion\\features\\layout.mjs.map").
+  Turbopack has seen frequent file updates and is waiting for the filesystem to settle (1.5s elapsed so far; last modified: "\\\\?\\C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\node_modules\\motion-dom\\dist\\es\\animation\\utils\\WithPromise.mjs").
+  Turbopack has seen frequent file updates and is waiting for the filesystem to settle (0.5s elapsed so far; last modified: "\\\\?\\C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\node_modules\\motion-dom\\dist\\es\\projection\\animation\\mix-values.mjs").
+  Turbopack has seen frequent file updates and is waiting for the filesystem to settle (0.5s elapsed so far; last modified: "\\\\?\\C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\node_modules\\motion-dom\\dist\\es\\projection\\styles\\scale-correction.mjs.map").
+  Turbopack has seen frequent file updates and is waiting for the filesystem to settle (1.5s elapsed so far; last modified: "\\\\?\\C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\node_modules\\motion-dom\\dist\\es\\render\\utils\\is-controlling-variants.mjs").
+  Turbopack has seen frequent file updates and is waiting for the filesystem to settle (0.5s elapsed so far; last modified: "\\\\?\\C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\node_modules\\framer-motion\\dist\\es\\render\\dom\\utils\\filter-props.mjs").
+  Turbopack has seen frequent file updates and is waiting for the filesystem to settle (0.5s elapsed so far; last modified: "\\\\?\\C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\node_modules\\motion-dom\\dist\\es\\gestures\\press\\utils\\keyboard.mjs").
+  Turbopack has seen frequent file updates and is waiting for the filesystem to settle (0.5s elapsed so far; last modified: "\\\\?\\C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\node_modules\\motion-dom\\dist\\es\\value\\types\\utils\\is-nullish.mjs.map").

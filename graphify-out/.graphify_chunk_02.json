@@ -1,0 +1,299 @@
+{
+  "nodes": [
+    {
+      "id": "public_conquistas_balao_boituva_photo",
+      "label": "Boituva Hot Air Balloon Sunrise Photo",
+      "file_type": "image",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\balao-boituva.webp",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_conquistas_balao_boituva_hot_air_balloon_ride",
+      "label": "Hot Air Balloon Ride Experience",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\balao-boituva.webp",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_conquistas_balao_boituva_boituva_sao_paulo",
+      "label": "Boituva, Sao Paulo (Ballooning Destination)",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\balao-boituva.webp",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_conquistas_balao_boituva_br_ramo_registration",
+      "label": "BR-RAMO Balloon Envelope Registration Marking",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\balao-boituva.webp",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_conquistas_balao_boituva_golden_hour_aerial_composition",
+      "label": "Golden Hour Aerial Composition",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\balao-boituva.webp",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_conquistas_balao_boituva_conquistas_asset_set",
+      "label": "Conquistas (Achievements) Image Asset Set",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\balao-boituva.webp",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_conquistas_balao_boituva_aspirational_reward_imagery",
+      "label": "Aspirational Reward Imagery",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\balao-boituva.webp",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_conquistas_balao_boituva_webp_optimized_delivery",
+      "label": "WebP Optimized Image Delivery",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\balao-boituva.webp",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_conquistas_balao_boituva_portrait_card_crop",
+      "label": "Near-Square Portrait Card Crop",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\balao-boituva.webp",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_conquistas_balao_boituva_suburban_townscape_backdrop",
+      "label": "Suburban Townscape Backdrop",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\balao-boituva.webp",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "public_conquistas_balao_boituva_photo",
+      "target": "public_conquistas_balao_boituva_hot_air_balloon_ride",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\balao-boituva.webp",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_conquistas_balao_boituva_photo",
+      "target": "public_conquistas_balao_boituva_br_ramo_registration",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\balao-boituva.webp",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_conquistas_balao_boituva_photo",
+      "target": "public_conquistas_balao_boituva_suburban_townscape_backdrop",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\balao-boituva.webp",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_conquistas_balao_boituva_photo",
+      "target": "public_conquistas_balao_boituva_boituva_sao_paulo",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\balao-boituva.webp",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_conquistas_balao_boituva_photo",
+      "target": "public_conquistas_balao_boituva_golden_hour_aerial_composition",
+      "relation": "implements",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\balao-boituva.webp",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_conquistas_balao_boituva_photo",
+      "target": "public_conquistas_balao_boituva_conquistas_asset_set",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\balao-boituva.webp",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_conquistas_balao_boituva_aspirational_reward_imagery",
+      "target": "public_conquistas_balao_boituva_photo",
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\balao-boituva.webp",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_conquistas_balao_boituva_golden_hour_aerial_composition",
+      "target": "public_conquistas_balao_boituva_aspirational_reward_imagery",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\balao-boituva.webp",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_conquistas_balao_boituva_webp_optimized_delivery",
+      "target": "public_conquistas_balao_boituva_photo",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\balao-boituva.webp",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_conquistas_balao_boituva_portrait_card_crop",
+      "target": "public_conquistas_balao_boituva_photo",
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\balao-boituva.webp",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_conquistas_balao_boituva_hot_air_balloon_ride",
+      "target": "public_conquistas_balao_boituva_boituva_sao_paulo",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\balao-boituva.webp",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_conquistas_balao_boituva_br_ramo_registration",
+      "target": "public_conquistas_balao_boituva_hot_air_balloon_ride",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\balao-boituva.webp",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_conquistas_balao_boituva_suburban_townscape_backdrop",
+      "target": "public_conquistas_balao_boituva_boituva_sao_paulo",
+      "relation": "references",
+      "confidence": "AMBIGUOUS",
+      "confidence_score": 0.3,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\balao-boituva.webp",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_conquistas_balao_boituva_conquistas_asset_set",
+      "target": "public_conquistas_balao_boituva_aspirational_reward_imagery",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\balao-boituva.webp",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_conquistas_balao_boituva_portrait_card_crop",
+      "target": "public_conquistas_balao_boituva_webp_optimized_delivery",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\balao-boituva.webp",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "balao_boituva_achievement_card_visual",
+      "label": "Achievement Card Visual Pattern (subject, place, treatment, intent)",
+      "nodes": [
+        "public_conquistas_balao_boituva_photo",
+        "public_conquistas_balao_boituva_hot_air_balloon_ride",
+        "public_conquistas_balao_boituva_boituva_sao_paulo",
+        "public_conquistas_balao_boituva_aspirational_reward_imagery",
+        "public_conquistas_balao_boituva_conquistas_asset_set"
+      ],
+      "relation": "form",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\balao-boituva.webp"
+    },
+    {
+      "id": "balao_boituva_web_asset_delivery_constraints",
+      "label": "Web Asset Delivery Constraints (format, crop, composition)",
+      "nodes": [
+        "public_conquistas_balao_boituva_photo",
+        "public_conquistas_balao_boituva_webp_optimized_delivery",
+        "public_conquistas_balao_boituva_portrait_card_crop",
+        "public_conquistas_balao_boituva_golden_hour_aerial_composition"
+      ],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\conquistas\\balao-boituva.webp"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

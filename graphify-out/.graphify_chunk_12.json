@@ -1,0 +1,202 @@
+{
+  "nodes": [
+    {
+      "id": "public_parceiros_alinhar_cor_alinhar_arquitetura",
+      "label": "Alinhar Arquitetura (brand)",
+      "file_type": "image",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\alinhar-cor.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_parceiros_alinhar_cor_wordmark_alinhar",
+      "label": "alinhar lowercase geometric wordmark",
+      "file_type": "image",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\alinhar-cor.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_parceiros_alinhar_cor_descriptor_arquitetura",
+      "label": "arquitetura letterspaced descriptor",
+      "file_type": "image",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\alinhar-cor.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_parceiros_alinhar_cor_baseline_rule",
+      "label": "Horizontal baseline rule device",
+      "file_type": "image",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\alinhar-cor.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_parceiros_alinhar_cor_slate_blue_palette",
+      "label": "Monochrome slate-blue palette (~#3F5C72)",
+      "file_type": "image",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\alinhar-cor.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_parceiros_alinhar_cor_color_variant_asset",
+      "label": "Color (cor) logo variant asset",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\alinhar-cor.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_parceiros_alinhar_cor_partner_logo_wall",
+      "label": "Partner logo wall asset (public/parceiros)",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\alinhar-cor.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_parceiros_alinhar_cor_alignment_metaphor",
+      "label": "Alignment-as-identity design rationale",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\alinhar-cor.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "public_parceiros_alinhar_cor_wordmark_alinhar",
+      "target": "public_parceiros_alinhar_cor_alinhar_arquitetura",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\alinhar-cor.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_parceiros_alinhar_cor_descriptor_arquitetura",
+      "target": "public_parceiros_alinhar_cor_alinhar_arquitetura",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\alinhar-cor.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_parceiros_alinhar_cor_baseline_rule",
+      "target": "public_parceiros_alinhar_cor_descriptor_arquitetura",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\alinhar-cor.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_parceiros_alinhar_cor_slate_blue_palette",
+      "target": "public_parceiros_alinhar_cor_alinhar_arquitetura",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\alinhar-cor.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_parceiros_alinhar_cor_color_variant_asset",
+      "target": "public_parceiros_alinhar_cor_slate_blue_palette",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\alinhar-cor.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_parceiros_alinhar_cor_alinhar_arquitetura",
+      "target": "public_parceiros_alinhar_cor_partner_logo_wall",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\alinhar-cor.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_parceiros_alinhar_cor_alignment_metaphor",
+      "target": "public_parceiros_alinhar_cor_baseline_rule",
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\alinhar-cor.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_parceiros_alinhar_cor_alignment_metaphor",
+      "target": "public_parceiros_alinhar_cor_wordmark_alinhar",
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\alinhar-cor.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_parceiros_alinhar_cor_baseline_rule",
+      "target": "public_parceiros_alinhar_cor_wordmark_alinhar",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\alinhar-cor.png",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "alinhar_visual_identity_lockup",
+      "label": "Alinhar Arquitetura logo lockup",
+      "nodes": [
+        "public_parceiros_alinhar_cor_wordmark_alinhar",
+        "public_parceiros_alinhar_cor_descriptor_arquitetura",
+        "public_parceiros_alinhar_cor_baseline_rule",
+        "public_parceiros_alinhar_cor_slate_blue_palette"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\alinhar-cor.png"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

@@ -1,0 +1,212 @@
+{
+  "nodes": [
+    {
+      "id": "public_parceiros_dr_interiores_cor_logo_asset",
+      "label": "DR Interiores Color Logo Asset",
+      "file_type": "image",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\dr-interiores-cor.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_parceiros_dr_interiores_cor_dr_interiores_brand",
+      "label": "DR Interiores (Interior Design Brand)",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\dr-interiores-cor.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_parceiros_dr_interiores_cor_dr_monogram_symbol",
+      "label": "DR Monogram Symbol (Interlocking D and R Line Mark)",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\dr-interiores-cor.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_parceiros_dr_interiores_cor_interiores_wordmark",
+      "label": "INTERIORES Wordmark (Wide-Tracked Uppercase Sans)",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\dr-interiores-cor.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_parceiros_dr_interiores_cor_bronze_palette",
+      "label": "Bronze / Warm Brown Monochrome Palette on White",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\dr-interiores-cor.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_parceiros_dr_interiores_cor_minimal_line_identity",
+      "label": "Minimal Thin-Line Geometric Identity Style",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\dr-interiores-cor.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_parceiros_dr_interiores_cor_partner_logo_set",
+      "label": "Parceiros (Partner) Logo Set",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\dr-interiores-cor.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_parceiros_dr_interiores_cor_color_variant",
+      "label": "Color Variant Naming Convention (-cor suffix)",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\dr-interiores-cor.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "public_parceiros_dr_interiores_cor_logo_asset",
+      "target": "public_parceiros_dr_interiores_cor_dr_interiores_brand",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\dr-interiores-cor.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_parceiros_dr_interiores_cor_dr_monogram_symbol",
+      "target": "public_parceiros_dr_interiores_cor_dr_interiores_brand",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\dr-interiores-cor.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_parceiros_dr_interiores_cor_interiores_wordmark",
+      "target": "public_parceiros_dr_interiores_cor_dr_interiores_brand",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\dr-interiores-cor.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_parceiros_dr_interiores_cor_bronze_palette",
+      "target": "public_parceiros_dr_interiores_cor_dr_interiores_brand",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\dr-interiores-cor.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_parceiros_dr_interiores_cor_minimal_line_identity",
+      "target": "public_parceiros_dr_interiores_cor_dr_monogram_symbol",
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\dr-interiores-cor.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_parceiros_dr_interiores_cor_minimal_line_identity",
+      "target": "public_parceiros_dr_interiores_cor_interiores_wordmark",
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\dr-interiores-cor.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_parceiros_dr_interiores_cor_logo_asset",
+      "target": "public_parceiros_dr_interiores_cor_partner_logo_set",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\dr-interiores-cor.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_parceiros_dr_interiores_cor_logo_asset",
+      "target": "public_parceiros_dr_interiores_cor_color_variant",
+      "relation": "implements",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\dr-interiores-cor.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_parceiros_dr_interiores_cor_color_variant",
+      "target": "public_parceiros_dr_interiores_cor_bronze_palette",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\dr-interiores-cor.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_parceiros_dr_interiores_cor_dr_monogram_symbol",
+      "target": "public_parceiros_dr_interiores_cor_interiores_wordmark",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\dr-interiores-cor.png",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "dr_interiores_visual_identity_system",
+      "label": "DR Interiores Visual Identity System",
+      "nodes": [
+        "public_parceiros_dr_interiores_cor_dr_monogram_symbol",
+        "public_parceiros_dr_interiores_cor_interiores_wordmark",
+        "public_parceiros_dr_interiores_cor_bronze_palette",
+        "public_parceiros_dr_interiores_cor_dr_interiores_brand"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\redac\\OneDrive\\Desktop\\Projetos\\PF-connect\\public\\parceiros\\dr-interiores-cor.png"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}
