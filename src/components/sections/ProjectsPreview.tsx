@@ -1,5 +1,4 @@
 import { projects } from "@/content/projects";
-import { Button } from "@/components/primitives/Button";
 import { Container } from "@/components/primitives/Container";
 import { DisplayTitle } from "@/components/primitives/DisplayTitle";
 import { Eyebrow } from "@/components/primitives/Eyebrow";
@@ -8,7 +7,7 @@ import { Reveal } from "@/components/motion/Reveal";
 
 export function ProjectsPreview() {
   return (
-    <section className="surface-light py-24 lg:py-32">
+    <section id="projetos" className="surface-light scroll-mt-16 py-24 lg:scroll-mt-20 lg:py-32">
       <Container>
         <Eyebrow tone="goldInk">Projetos das nossas parceiras</Eyebrow>
         <Reveal className="mt-6">
@@ -36,11 +35,6 @@ export function ProjectsPreview() {
           Conteúdo demonstrativo — aguardando fotografias e nomes reais
         </p>
 
-        <div className="mt-12">
-          <Button href="/projetos" variant="ghostDark">
-            Ver os projetos
-          </Button>
-        </div>
       </Container>
     </section>
   );

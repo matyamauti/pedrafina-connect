@@ -6,6 +6,7 @@ import { hero } from "@/content/program";
 import { Button } from "@/components/primitives/Button";
 import { DisplayTitle } from "@/components/primitives/DisplayTitle";
 import { Eyebrow } from "@/components/primitives/Eyebrow";
+import { ParallaxComponent } from "@/components/ui/parallax-scrolling";
 
 const REDUCED_QUERY = "(prefers-reduced-motion: reduce)";
 
@@ -39,79 +40,96 @@ export function VideoHero() {
     const attempt = video.play();
     // Um play recusado não é erro de aplicação — o pôster continua à mostra.
     if (attempt) attempt.catch(() => {});
+
+    const desktop = window.matchMedia("(min-width: 640px)");
+    const updateSource = () => {
+      video.load();
+      video.play().catch(() => {});
+    };
+    desktop.addEventListener("change", updateSource);
+
+    const visibility = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) video.play().catch(() => {});
+        else video.pause();
+      },
+      { threshold: 0.05 },
+    );
+    visibility.observe(video);
+
+    return () => {
+      visibility.disconnect();
+      desktop.removeEventListener("change", updateSource);
+      video.pause();
+    };
   }, [reducedMotion]);
 
   return (
-    <section className="relative min-h-[100svh] overflow-hidden bg-pf-black">
-      {reducedMotion ? (
-        <Image
-          src="/hero/hero-poster.webp"
-          alt=""
+    <section id="inicio" className="relative isolate h-[100svh] overflow-hidden bg-pf-black text-pf-cream">
+      <ParallaxComponent className="relative h-full overflow-hidden">
+        <div data-parallax-layer="1" className="absolute inset-0">
+          {reducedMotion ? (
+            <picture className="relative block h-full w-full">
+              <source media="(max-width: 639px)" srcSet="/hero/logo-reveal-mobile-poster.webp" />
+              <Image
+                src="/hero/logo-reveal-desktop-poster.webp"
+                alt=""
+                aria-hidden
+                fill
+                priority
+                sizes="100vw"
+                unoptimized
+                className="object-cover object-center max-sm:-translate-y-[10%] max-sm:scale-[1.04] sm:translate-x-[14%] sm:object-contain"
+              />
+            </picture>
+          ) : (
+            <video
+              ref={videoRef}
+              autoPlay
+              muted
+              loop
+              playsInline
+              preload="auto"
+              aria-hidden
+              tabIndex={-1}
+              className="h-full w-full object-cover object-center max-sm:-translate-y-[10%] max-sm:scale-[1.04] sm:translate-x-[14%] sm:object-contain"
+            >
+              <source media="(max-width: 639px)" src="/hero/logo-reveal-mobile.mp4" type="video/mp4" />
+              <source media="(min-width: 640px)" src="/hero/logo-reveal-desktop.mp4" type="video/mp4" />
+            </video>
+          )}
+        </div>
+
+        <div
+          data-parallax-layer="2"
           aria-hidden
-          fill
-          priority
-          sizes="100vw"
-          className="object-cover"
+          className="pointer-events-none absolute inset-0 bg-[linear-gradient(to_bottom,transparent_25%,rgba(0,0,0,0.18)_43%,rgba(0,0,0,0.92)_76%,#000_100%)] sm:bg-[linear-gradient(to_right,rgba(0,0,0,0.94)_0%,rgba(0,0,0,0.79)_27%,rgba(0,0,0,0.29)_53%,transparent_76%)]"
         />
-      ) : (
-        <video
-          ref={videoRef}
-          autoPlay
-          muted
-          loop
-          playsInline
-          preload="auto"
-          poster="/hero/hero-poster.webp"
-          aria-hidden
-          tabIndex={-1}
-          className="absolute inset-0 h-full w-full object-cover"
+        <div
+          data-parallax-layer="3"
+          className="absolute inset-0 z-10 flex items-end sm:items-center"
         >
-          <source src="/hero/hero.webm" type="video/webm" />
-          <source src="/hero/hero.mp4" type="video/mp4" />
-        </video>
-      )}
-
-      {/* O filme ocupa a tela inteira; o texto se sustenta num degradê
-          quase sólido na área que ele ocupa e que some antes do meio da
-          tela. As paradas foram calculadas sobre a luminância medida nos
-          quadros mais claros do laço, não estimadas: no celular o texto fica
-          embaixo, então o degradê é vertical; no desktop fica à esquerda. */}
-      <div
-        aria-hidden
-        className="absolute inset-0 bg-[linear-gradient(to_top,rgba(0,0,0,0.94)_0%,rgba(0,0,0,0.84)_54%,rgba(0,0,0,0.35)_72%,rgba(0,0,0,0)_90%)] lg:bg-[linear-gradient(to_right,rgba(0,0,0,0.92)_0%,rgba(0,0,0,0.78)_40%,rgba(0,0,0,0.3)_56%,rgba(0,0,0,0)_72%)]"
-      />
-
-      {/* O header é transparente sobre a home e passa por cima do filme. */}
-      <div
-        aria-hidden
-        className="absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-pf-black/85 to-transparent"
-      />
-
-      <div className="relative flex min-h-[100svh] items-end lg:items-center">
-        {/* Mesmas margens do Container e do header: o título do herói
-            alinha com a marca na barra. */}
-        <div className="mx-auto w-full max-w-[90rem] px-4 pb-20 pt-32 sm:px-8 lg:px-14 lg:py-32">
-          <div className="max-w-xl">
-            <Eyebrow>{hero.eyebrow}</Eyebrow>
-            <DisplayTitle as="h1" size="lg" className="mt-8">
-              {hero.title}
-            </DisplayTitle>
-            {/* Creme cheio, sem opacidade: sobre o filme, 80% já lavava o
-                texto depois que o degradê foi aliviado. */}
-            <p className="mt-10 max-w-md font-sans text-base leading-relaxed text-pf-cream sm:text-lg">
-              {hero.lead}
-            </p>
-            <div className="mt-12">
-              <Button href="/o-connect-club">Conheça o programa</Button>
+          <div className="mx-auto w-full max-w-[90rem] px-5 pb-[max(2rem,env(safe-area-inset-bottom))] sm:px-8 sm:pb-0 lg:px-14">
+            <div className="max-w-[19rem] sm:max-w-xl">
+              <Eyebrow>{hero.eyebrow}</Eyebrow>
+              <DisplayTitle as="h1" size="lg" className="mt-3 text-pf-cream max-sm:text-[clamp(2rem,8vw,2.4rem)] sm:mt-6">
+                {hero.title}
+              </DisplayTitle>
+              <p className="mt-3 max-w-md font-sans text-[0.8125rem] leading-relaxed text-pf-cream sm:mt-8 sm:text-lg">
+                {hero.lead}
+              </p>
+              <div className="mt-5 sm:mt-10">
+                <Button href="/#regra-de-pontuacao" className="max-sm:px-4 max-sm:py-3 max-sm:text-xs">Conheça o clube de pontuação</Button>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-
-      <div
-        aria-hidden
-        className="absolute inset-x-0 bottom-0 h-px bg-pf-gold/40"
-      />
+        <div
+          data-parallax-layer="4"
+          aria-hidden
+          className="pointer-events-none absolute inset-0 z-20 bg-[linear-gradient(to_bottom,rgba(0,0,0,0.32)_0%,transparent_19%,transparent_80%,rgba(0,0,0,0.15)_100%)]"
+        />
+      </ParallaxComponent>
     </section>
   );
 }

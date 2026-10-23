@@ -10,16 +10,17 @@ export function BrandLockup({
   className = "",
 }: BrandLockupProps) {
   const base = tone === "light" ? "text-pf-cream" : "text-pf-graphite";
+  const accent = tone === "light" ? "text-pf-gold" : "text-pf-gold-ink";
 
   return (
     <span
       className={`whitespace-nowrap font-sans text-eyebrow font-bold uppercase ${base} ${className}`}
     >
       Pedra Fina
-      <span aria-hidden className="mx-2 font-normal text-pf-gold">
+      <span aria-hidden className={`mx-2 font-normal ${accent}`}>
         /
       </span>
-      <span className="text-pf-gold">Connect</span>
+      <span className={accent}>Connect</span>
     </span>
   );
 }

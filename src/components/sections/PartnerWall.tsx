@@ -4,22 +4,20 @@ import { Container } from "@/components/primitives/Container";
 import { DisplayTitle } from "@/components/primitives/DisplayTitle";
 import { Eyebrow } from "@/components/primitives/Eyebrow";
 
-// Parede de parceiros. Cada logo aparece na cor da marca, com o fundo do
-// arquivo removido — a grade é feita de fios de 1px, não de retângulos
-// soltos. A célula só recebe cor quando a arte é clara demais para a
-// superfície clara (ver tileColor em content/partners).
+// A mesma área de exibição e o nome abaixo dão leitura consistente a artes
+// horizontais e verticais, sem forçar as marcas a uma proporção única.
 export function PartnerWall() {
   return (
-    <section className="surface-light py-24 lg:py-32">
+    <section id="parceiros" className="surface-light scroll-mt-16 py-24 lg:scroll-mt-20 lg:py-32">
       <Container>
         <div className="max-w-2xl">
           <Eyebrow tone="goldInk">Quem já constrói conosco</Eyebrow>
           <DisplayTitle className="mt-6">
-            Escritórios que assinam a nossa rede
+            Profissionais e escritórios que constroem conosco
           </DisplayTitle>
         </div>
 
-        <ul className="mt-20 grid grid-cols-2 gap-px bg-pf-gold-ink/20 md:grid-cols-3">
+        <ul className="mt-16 grid grid-cols-1 gap-px bg-pf-gold-ink/20 sm:grid-cols-2 lg:mt-20 lg:grid-cols-3">
           {partners.map((partner) => (
             <li
               key={partner.slug}
@@ -28,21 +26,32 @@ export function PartnerWall() {
                   ? { backgroundColor: partner.tileColor }
                   : undefined
               }
-              className={`flex min-h-[9.5rem] items-center justify-center px-8 py-12 transition-colors duration-500 ease-pf lg:min-h-[13rem] ${
-                partner.tileColor ? "" : "bg-pf-cream hover:bg-white"
+              className={`flex min-h-64 flex-col items-center justify-center px-6 py-8 sm:min-h-72 lg:min-h-76 ${
+                partner.tileColor ? "" : "bg-pf-cream"
               }`}
             >
-              <Image
-                src={partner.logo}
-                alt={partner.name}
-                width={partner.width}
-                height={partner.height}
-                sizes="(min-width: 768px) 22rem, 45vw"
-                // Teto de altura generoso: as logos verticais (Jennifer Novais,
-                // DR Interiores) são limitadas pela altura e ficavam miúdas ao
-                // lado das largas, que são limitadas pela largura.
-                className="h-auto max-h-24 w-auto max-w-[11rem] lg:max-h-28 lg:max-w-[14rem]"
-              />
+              <div className="relative h-32 w-full max-w-72 overflow-hidden sm:h-36">
+                <Image
+                  src={partner.logo}
+                  alt=""
+                  fill
+                  sizes="(min-width: 1024px) 18rem, (min-width: 640px) 45vw, 18rem"
+                  className="object-contain"
+                  style={{
+                    transform: `translateY(${partner.logoOffsetY ?? "0%"}) scale(${partner.logoScale ?? 1})`,
+                  }}
+                />
+              </div>
+              <p
+                className={`mt-4 text-center font-sans text-base font-medium leading-snug sm:text-lg ${
+                  partner.tileColor ? "text-pf-cream" : "text-pf-graphite"
+                }`}
+              >
+                {partner.name}
+              </p>
+              <p className={`mt-1 text-center font-sans text-xs leading-relaxed ${partner.tileColor ? "text-pf-cream/70" : "text-pf-graphite/60"}`}>
+                {partner.signature}
+              </p>
             </li>
           ))}
         </ul>

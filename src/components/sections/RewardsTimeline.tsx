@@ -4,10 +4,9 @@ import Image from "next/image";
 import { useRef } from "react";
 import { rewardActs } from "@/content/rewards";
 import { gsap, ScrollTrigger, useIsomorphicLayoutEffect } from "@/lib/gsap";
-import { Button } from "@/components/primitives/Button";
 import { BlurText } from "@/components/primitives/BlurText";
 import { Container } from "@/components/primitives/Container";
-import TextType from "@/components/primitives/TextType";
+import ShinyText from "@/components/primitives/ShinyText";
 import { MillionTitle } from "@/components/sections/MillionTitle";
 
 const pointsClassName =
@@ -197,7 +196,7 @@ export function RewardsTimeline() {
   let milestoneIndex = 0;
 
   return (
-    <section className="overflow-x-clip bg-pf-black py-24 lg:py-32">
+    <section className="overflow-x-clip bg-pf-black pb-0 pt-24 lg:pt-32">
       <Container>
         <div ref={root} className="relative">
           <svg
@@ -233,28 +232,22 @@ export function RewardsTimeline() {
           {rewardActs.map((act, actIndex) => (
             <div key={act.eyebrow} className={actIndex > 0 ? "mt-28 lg:mt-40" : ""}>
               {act.title ? (
-                <header className="relative z-30 pb-5 pl-14 lg:pl-0">
-                  <h2 className="relative max-w-[18ch] font-display text-[clamp(1.5rem,3.6vw,3.25rem)] font-medium leading-[1.08] tracking-[-0.045em] text-pf-cream lg:max-w-none lg:whitespace-nowrap">
-                    <span aria-hidden="true" className="invisible block">{act.title}</span>
-                    <TextType
+                <header className="relative z-30 px-2 pb-5 text-center">
+                  <h2 className="mx-auto max-w-[25ch] font-display text-[clamp(2.5rem,4.2vw,4.5rem)] font-medium leading-[1.1] tracking-[-0.045em] text-balance">
+                    <ShinyText
                       text={act.title}
-                      as="span"
-                      typingSpeed={75}
-                      pauseDuration={1500}
-                      deletingSpeed={50}
-                      deleteMode="backspace"
-                      typeEffect="fade"
-                      mistakes={0.2}
-                      cursorStyle="bar"
-                      cursorGlide
-                      showCursor
-                      loop={false}
-                      startOnVisible
-                      className="absolute inset-0 w-full"
-                      cursorClassName="text-pf-gold"
+                      color="#b79a62"
+                      shineColor="#f4f1eb"
+                      speed={2.8}
+                      delay={1.6}
+                      shineWidth={36}
+                      softness={1}
+                      glow={0.25}
+                      direction="right"
+                      trigger="loop"
                     />
                   </h2>
-                  <div aria-hidden="true" className="mt-6 h-px w-24 bg-pf-gold/70" />
+                  <div aria-hidden="true" className="mx-auto mt-7 h-px w-24 bg-pf-gold/70" />
                 </header>
               ) : null}
 
@@ -332,9 +325,6 @@ export function RewardsTimeline() {
           ))}
         </div>
 
-        <div className="mt-24">
-          <Button href="/recompensas">Ver todas as recompensas</Button>
-        </div>
       </Container>
     </section>
   );

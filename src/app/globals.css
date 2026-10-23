@@ -1,4 +1,7 @@
 @import "tailwindcss";
+@source "../components/ui/feature-carousel.tsx";
+@source "../components/ui/curved-menu.tsx";
+@source "../components/ui/footer-section.tsx";
 
 /* Fontes expostas pelo next/font no <html>. */
 @theme inline {
@@ -33,9 +36,9 @@
   --text-eyebrow--letter-spacing: 0.12em;
   --text-display-sm: clamp(1.5rem, 1.15rem + 1.4vw, 2.25rem);
   --text-display-sm--line-height: 1.2;
-  --text-display-md: clamp(2rem, 1.4rem + 2.4vw, 3.25rem);
+  --text-display-md: clamp(2.5rem, 1.55rem + 3.1vw, 4rem);
   --text-display-md--line-height: 1.13;
-  --text-display-lg: clamp(2.5rem, 1.6rem + 3.5vw, 4.75rem);
+  --text-display-lg: clamp(2.75rem, 1.6rem + 4vw, 5.25rem);
   --text-display-lg--line-height: 1.08;
 
   /* Curvas: ease-out forte para entrada, nunca ease-in. */
@@ -84,4 +87,33 @@
 @utility surface-light {
   background-color: var(--color-pf-cream);
   color: var(--color-pf-graphite);
+}
+
+.history-portal [data-gp-content] {
+  display: block;
+  padding: 0;
+}
+
+.history-portal [data-gp-caption] {
+  z-index: 2;
+  justify-content: flex-end;
+  color: var(--color-pf-graphite);
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.history-portal [data-gp-enter] {
+  border-bottom: 1px solid var(--color-pf-gold-ink);
+  padding-inline: 0.2rem;
+}
+
+@media (max-width: 639px) {
+  .history-portal [data-gp-pin] {
+    touch-action: pan-y;
+    user-select: none;
+  }
+
+  .history-portal [data-gp-caption] {
+    inset: auto 1.5rem calc(8% + env(safe-area-inset-bottom));
+  }
 }

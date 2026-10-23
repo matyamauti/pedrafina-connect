@@ -2,13 +2,13 @@
 // documento explicita. Nada aqui pode ser derivado ou complementado.
 
 export const pointsLogic = {
-  eyebrow: "A lógica é simples",
+  eyebrow: "Pontuação",
+  title: "Cada contrato assinado gera pontos.",
   amount: "R$ 1",
-  equation: "em contrato assinado = 1 ponto",
+  criterion: "em contrato assinado",
+  result: "1 ponto",
   notes: [
-    { label: "Marcenaria + marmoraria", detail: "na mesma conta" },
+    { label: "MARCENARIA + MARMORARIA", detail: "na mesma conta" },
   ],
   aside: "RT independente",
-  disclaimer:
-    "Regulamento do programa será enviado individualmente para cada profissional cadastrado.",
 } as const;

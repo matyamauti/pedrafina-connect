@@ -96,7 +96,7 @@ export function Hero() {
           </div>
 
           <div className="hero-cta mt-12">
-            <Button href="/o-connect-club">Conheça o programa</Button>
+            <Button href="/#regra-de-pontuacao">Conheça o clube de pontuação</Button>
           </div>
         </div>
       </div>

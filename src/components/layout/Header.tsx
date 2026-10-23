@@ -2,15 +2,16 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { ctaItem, navItems } from "@/lib/nav";
 import { BrandLockup } from "@/components/layout/BrandLockup";
-import { MobileNav } from "@/components/layout/MobileNav";
+import { CurvedMenu } from "@/components/ui/curved-menu";
 
 export function Header() {
   const pathname = usePathname();
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+  const closeMenu = useCallback(() => setMenuOpen(false), []);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 24);
@@ -32,9 +33,10 @@ export function Header() {
         opaque ? "bg-pf-graphite" : "bg-transparent"
       }`}
     >
-      <div className="mx-auto flex h-16 w-full max-w-[90rem] items-center justify-between gap-6 px-4 sm:px-8 lg:px-14 xl:h-20">
+      <div className="relative z-50 mx-auto flex h-16 w-full max-w-[90rem] items-center justify-between gap-6 px-4 sm:px-8 lg:px-14 xl:h-20">
         <Link
-          href="/"
+          href="/#inicio"
+          onClick={closeMenu}
           aria-label="Pedra Fina Connect, ir para a home"
           className="-my-3 flex h-11 items-center py-3"
         >
@@ -42,7 +44,7 @@ export function Header() {
         </Link>
 
         <nav aria-label="Principal" className="hidden xl:block">
-          <ul className="flex items-center gap-10">
+          <ul className="flex items-center gap-5 2xl:gap-9">
             {navItems.map((item) => {
               const current = pathname === item.href;
 
@@ -107,9 +109,9 @@ export function Header() {
         }`}
       />
 
-      <MobileNav
+      <CurvedMenu
         open={menuOpen}
-        onClose={() => setMenuOpen(false)}
+        onClose={closeMenu}
         currentPath={pathname}
       />
     </header>

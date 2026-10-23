@@ -1,6 +1,6 @@
-# Pedra Fina Connect Club
+# Pedra Fina Connect
 
-Site institucional do programa de relacionamento Pedra Fina Connect Club. Apresenta as regras de pontuação, a jornada de recompensas, os parceiros e o convite para novos profissionais.
+Site institucional do programa de relacionamento Pedra Fina Connect. Apresenta as regras de pontuação, a jornada de recompensas, os parceiros e o convite para novos profissionais.
 
 ## Stack
 

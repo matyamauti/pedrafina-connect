@@ -174,6 +174,7 @@ const startPhase = trigger =>
 const BlurText = ({
   text = '',
   delay = 200,
+  as: Tag = 'p',
   className = '',
   animateBy = 'words',
   direction = 'top',
@@ -373,7 +374,7 @@ const BlurText = ({
 
   return (
     <MotionConfig reducedMotion="user">
-      <p
+      <Tag
         ref={ref}
         className={className}
         style={{ display: 'flex', flexWrap: 'wrap', color, cursor: trigger === 'click' ? 'pointer' : undefined }}
@@ -391,7 +392,7 @@ const BlurText = ({
             {indices.map(renderPiece)}
           </span>
         ))}
-      </p>
+      </Tag>
     </MotionConfig>
   );
 };

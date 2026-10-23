@@ -1,10 +1,9 @@
 import { VideoHero } from "@/components/sections/VideoHero";
 import { WhoBelongs } from "@/components/sections/WhoBelongs";
 import { PointsLogic } from "@/components/sections/PointsLogic";
+import { JourneySteps } from "@/components/sections/JourneySteps";
 import { RewardsTimeline } from "@/components/sections/RewardsTimeline";
-import { ProjectsPreview } from "@/components/sections/ProjectsPreview";
-import { ReferralPanel } from "@/components/sections/ReferralPanel";
-import { ClosingCTA } from "@/components/sections/ClosingCTA";
+import { EventsSection } from "@/components/sections/EventsSection";
 
 export default function HomePage() {
   return (
@@ -12,10 +11,9 @@ export default function HomePage() {
       <VideoHero />
       <WhoBelongs />
       <PointsLogic />
+      <JourneySteps />
       <RewardsTimeline />
-      <ProjectsPreview />
-      <ReferralPanel />
-      <ClosingCTA />
+      <EventsSection />
     </>
   );
 }

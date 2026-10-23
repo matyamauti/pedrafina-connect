@@ -12,15 +12,13 @@ export const metadata: Metadata = {
   alternates: { canonical: "/como-funciona" },
 };
 
-// A ordem segue o deck: primeiro o que gera ponto (pág. 3), depois o que
-// acontece com ele (pág. 4). Claro para explicar, escuro para a regra.
 export default function ComoFuncionaPage() {
   return (
     <>
       <PageHeader
         eyebrow={journey.eyebrow}
-        title={journey.title}
-        lead="Do contrato assinado ao resgate, sem letra miúda escondida."
+        title="Conheça o clube de pontuação"
+        lead="Entenda como cada projeto indicado pode gerar pontos e abrir caminho para novas conquistas."
       />
       <PointsLogic />
       <JourneySteps />

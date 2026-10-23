@@ -3,13 +3,12 @@ export type NavItem = {
   label: string;
 };
 
-// Navegação enxuta: três destinos e uma ação. Quanto menos itens, mais peso
-// cada um carrega — e a barra deixa de competir com o herói.
+// Destinos principais do clube e uma ação de cadastro.
 export const navItems: NavItem[] = [
-  { href: "/como-funciona", label: "Como funciona" },
-  { href: "/reconhecimento", label: "Reconhecimento" },
-  { href: "/projetos", label: "Projetos" },
-  { href: "/parceiros", label: "Parceiros" },
+  { href: "/#etapas-do-clube", label: "Como funciona" },
+  { href: "/#parceiros", label: "Parceiros" },
+  { href: "/#eventos", label: "Eventos" },
+  { href: "/historia", label: "História" },
 ];
 
 export const ctaItem: NavItem = { href: "/cadastro", label: "Cadastre-se" };

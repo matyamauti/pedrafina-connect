@@ -1,43 +1,21 @@
 import { journey } from "@/content/journey";
-import { pointsLogic } from "@/content/points";
 import { Container } from "@/components/primitives/Container";
+import { FeatureCarousel } from "@/components/ui/feature-carousel";
 
-// Os quatro passos da pág. 4 do deck. O fio acima de cada etapa é cinza,
-// menos o do último, que é dourado — é assim no original e marca onde o
-// percurso chega. Não é decoração: a sequência aqui é real.
 export function JourneySteps() {
   return (
-    <section className="surface-light pb-24 pt-20 lg:pb-32">
+    <section id="etapas-do-clube" aria-labelledby="etapas-do-clube-titulo" className="surface-light scroll-mt-16 py-24 lg:scroll-mt-20 lg:py-32">
       <Container>
-        <ol className="grid grid-cols-1 gap-x-12 gap-y-14 sm:grid-cols-2 lg:grid-cols-4">
-          {journey.steps.map((step, index) => {
-            const isLast = index === journey.steps.length - 1;
+        <div className="max-w-4xl">
+          <p className="font-sans text-xs font-bold uppercase tracking-[0.16em] text-pf-gold-ink">{journey.eyebrow}</p>
+          <h2 id="etapas-do-clube-titulo" className="mt-5 font-display text-[clamp(2.5rem,5vw,4.75rem)] font-medium leading-[1.08] tracking-[-0.045em] text-pf-graphite">
+            {journey.title}
+          </h2>
+        </div>
 
-            return (
-              <li key={step.number}>
-                <div
-                  aria-hidden
-                  className={`h-px w-full ${
-                    isLast ? "bg-pf-gold" : "bg-pf-graphite/20"
-                  }`}
-                />
-                <p className="mt-8 font-display text-display-sm font-medium tabular-nums text-pf-gold-ink">
-                  {step.number}
-                </p>
-                <h2 className="mt-6 font-sans text-eyebrow font-bold uppercase text-pf-graphite">
-                  {step.label}
-                </h2>
-                <p className="mt-4 font-sans text-base leading-relaxed text-pf-graphite/75">
-                  {step.description}
-                </p>
-              </li>
-            );
-          })}
-        </ol>
-
-        <p className="mt-20 text-center font-sans text-xs font-bold uppercase tracking-[0.18em] text-pf-graphite">
-          {pointsLogic.disclaimer}
-        </p>
+        <div className="mt-14 lg:mt-20">
+          <FeatureCarousel items={journey.steps} />
+        </div>
       </Container>
     </section>
   );
