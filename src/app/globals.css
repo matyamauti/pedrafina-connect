@@ -88,32 +88,3 @@
   background-color: var(--color-pf-cream);
   color: var(--color-pf-graphite);
 }
-
-.history-portal [data-gp-content] {
-  display: block;
-  padding: 0;
-}
-
-.history-portal [data-gp-caption] {
-  z-index: 2;
-  justify-content: flex-end;
-  color: var(--color-pf-graphite);
-  font-size: 0.75rem;
-  font-weight: 600;
-}
-
-.history-portal [data-gp-enter] {
-  border-bottom: 1px solid var(--color-pf-gold-ink);
-  padding-inline: 0.2rem;
-}
-
-@media (max-width: 639px) {
-  .history-portal [data-gp-pin] {
-    touch-action: pan-y;
-    user-select: none;
-  }
-
-  .history-portal [data-gp-caption] {
-    inset: auto 1.5rem calc(8% + env(safe-area-inset-bottom));
-  }
-}

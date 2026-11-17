@@ -44,12 +44,12 @@ export function PartnerWall() {
               </div>
               <p
                 className={`mt-4 text-center font-sans text-base font-medium leading-snug sm:text-lg ${
-                  partner.tileColor ? "text-pf-cream" : "text-pf-graphite"
+                  partner.tileColor && !partner.lightTile ? "text-pf-cream" : "text-pf-graphite"
                 }`}
               >
                 {partner.name}
               </p>
-              <p className={`mt-1 text-center font-sans text-xs leading-relaxed ${partner.tileColor ? "text-pf-cream/70" : "text-pf-graphite/60"}`}>
+              <p className={`mt-1 text-center font-sans text-xs leading-relaxed ${partner.tileColor && !partner.lightTile ? "text-pf-cream/70" : "text-pf-graphite/60"}`}>
                 {partner.signature}
               </p>
             </li>

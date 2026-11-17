@@ -1,7 +1,5 @@
-// Parceiros fornecidos pelo cliente. Os arquivos originais traziam cada um
-// seu próprio fundo (branco, bege, verde, preto). O fundo foi removido e as
-// cores da arte preservadas, para a grade não virar um mosaico de
-// retângulos — cada logo aparece na cor da marca, recortado.
+// Parceiros fornecidos pelo cliente. Os primeiros logos têm fundo recortado;
+// os novos conservam a arte original e recebem uma superfície compatível.
 //
 // Algumas artes claras precisam de uma superfície escura para manter a leitura.
 // As escalas corrigem margens transparentes internas dos arquivos originais,
@@ -17,6 +15,7 @@ export type Partner = {
   width: number;
   height: number;
   tileColor?: string;
+  lightTile?: boolean;
   logoScale?: number;
   logoOffsetY?: string;
 };
@@ -40,4 +39,16 @@ export const partners: Partner[] = [
     logoScale: 2.1,
   },
   { slug: "dr-interiores", name: "DR Interiores", signature: "Design de Interiores", logo: "/parceiros/dr-interiores-cor.png", width: 300, height: 300, logoScale: 2.1 },
+  { slug: "elementar", name: "Elementar", signature: "Cubas e Revestimentos", logo: "/parceiros/elementar.jpg", width: 1600, height: 1600, tileColor: "#000000", logoScale: 1.75 },
+  { slug: "fernanda-helena", name: "Fernanda Helena", signature: "Arquitetura & Interiores", logo: "/parceiros/fernanda-helena.jpg", width: 1600, height: 900, tileColor: "#fbf8f1", lightTile: true },
+  { slug: "arquiteto-dos-anjos", name: "Arquiteto dos Anjos", signature: "Projetos e regularização", logo: "/parceiros/arquiteto-dos-anjos.jpg", width: 1600, height: 972, tileColor: "#ffffff", lightTile: true, logoScale: 1.1 },
+  { slug: "studio-mk", name: "Studio MK", signature: "Interiores · Concierge", logo: "/parceiros/studio-mk.jpg", width: 1599, height: 899, tileColor: "#000000", logoScale: 1.1 },
+  { slug: "giovana-biazus", name: "Giovana Biazus", signature: "Arquitetura e Interiores", logo: "/parceiros/giovana-biazus.jpg", width: 1599, height: 1600, tileColor: "#3d4960", logoScale: 1.85 },
+  { slug: "lara-jordana", name: "Lara Jordana", signature: "Arquitetura e Interiores", logo: "/parceiros/lara-jordana.jpg", width: 1181, height: 236, tileColor: "#e5d9c9", lightTile: true },
+  { slug: "juliana-mantovani", name: "Juliana Mantovani", signature: "Arquitetura & Interiores", logo: "/parceiros/juliana-mantovani.jpg", width: 1600, height: 1600, tileColor: "#000000", logoScale: 1.8 },
+  { slug: "nayara-samora", name: "Nayara Samora", signature: "Arquitetura e Interiores", logo: "/parceiros/nayara-samora.jpg", width: 1486, height: 1491, tileColor: "#f7f7f7", lightTile: true },
+  { slug: "bruno-retameiro", name: "Bruno Retameiro", signature: "Arquitetura e Interiores", logo: "/parceiros/bruno-retameiro.jpg", width: 987, height: 238, tileColor: "#ffffff", lightTile: true },
+  { slug: "jessica-inacio", name: "Jéssica Inácio", signature: "Arquitetura e Interiores", logo: "/parceiros/jessica-inacio.png", width: 4500, height: 4501, logoScale: 3 },
+  { slug: "lar-arquitetura", name: "LAR", signature: "Arquitetura", logo: "/parceiros/lar-arquitetura.png", width: 268, height: 203, tileColor: "#000000", logoScale: 1.2 },
+  { slug: "hall-3", name: "Hall-3", signature: "Montagens e Serviços", logo: "/parceiros/hall-3.jpeg", width: 1200, height: 400, tileColor: "#f7f7f7", lightTile: true },
 ];

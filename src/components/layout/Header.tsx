@@ -3,9 +3,9 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useCallback, useEffect, useState } from "react";
-import { ctaItem, navItems } from "@/lib/nav";
 import { BrandLockup } from "@/components/layout/BrandLockup";
 import { CurvedMenu } from "@/components/ui/curved-menu";
+import { SlideTabs } from "@/components/ui/slide-tabs";
 
 export function Header() {
   const pathname = usePathname();
@@ -43,41 +43,9 @@ export function Header() {
           <BrandLockup />
         </Link>
 
-        <nav aria-label="Principal" className="hidden xl:block">
-          <ul className="flex items-center gap-5 2xl:gap-9">
-            {navItems.map((item) => {
-              const current = pathname === item.href;
-
-              return (
-                <li key={item.href}>
-                  <Link
-                    href={item.href}
-                    aria-current={current ? "page" : undefined}
-                    className="group flex h-11 items-center whitespace-nowrap font-sans text-eyebrow font-bold uppercase text-pf-cream transition-colors duration-200 ease-pf hover:text-pf-gold aria-[current=page]:text-pf-gold"
-                  >
-                    {/* O fio de 1px é a assinatura do site; aqui ele se
-                        desenha da esquerda no hover e fica na página atual.
-                        Marca estado, não decora. */}
-                    <span className="relative">
-                      {item.label}
-                      <span
-                        aria-hidden
-                        className="absolute -bottom-2 left-0 h-px w-full origin-left scale-x-0 bg-pf-gold transition-transform duration-300 ease-pf group-hover:scale-x-100 group-focus-visible:scale-x-100 group-aria-[current=page]:scale-x-100"
-                      />
-                    </span>
-                  </Link>
-                </li>
-              );
-            })}
-          </ul>
+        <nav aria-label="Principal" className="absolute left-1/2 hidden -translate-x-1/2 xl:block">
+          <SlideTabs />
         </nav>
-
-        <Link
-          href={ctaItem.href}
-          className="hidden whitespace-nowrap border border-pf-gold px-6 py-3 font-sans text-eyebrow font-bold uppercase text-pf-gold transition-colors duration-200 ease-pf hover:bg-pf-gold hover:text-pf-black xl:block"
-        >
-          {ctaItem.label}
-        </Link>
 
         <button
           type="button"

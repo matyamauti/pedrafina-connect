@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { ProfessionalRegistrationForm } from "@/components/sections/ProfessionalRegistrationForm";
 
 export const metadata: Metadata = {
@@ -12,6 +13,16 @@ export default function CadastroPage() {
   return (
     <div className="grid min-h-svh lg:grid-cols-[minmax(0,0.82fr)_minmax(0,1.18fr)]">
       <section className="relative flex flex-col justify-between overflow-hidden bg-pf-black px-5 pb-16 pt-36 text-pf-cream sm:px-8 lg:min-h-svh lg:px-14 lg:pb-20 lg:pt-44">
+        <div aria-hidden="true" className="pointer-events-none absolute inset-0">
+          <Image
+            src="/cadastro/monograma-pf-dourado.png"
+            alt=""
+            fill
+            sizes="(min-width: 1024px) 45vw, 100vw"
+            className="object-cover object-center opacity-40"
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-pf-black/70 via-pf-black/25 to-pf-black/65 lg:bg-gradient-to-r lg:from-pf-black/65 lg:via-pf-black/25 lg:to-pf-black/35" />
+        </div>
         <div className="relative z-10 max-w-xl">
           <p className="font-sans text-xs font-bold uppercase tracking-[0.16em] text-pf-gold">
             Pedra Fina Connect
@@ -27,7 +38,6 @@ export default function CadastroPage() {
         <div className="relative z-10 mt-16 border-t border-pf-gold/40 pt-6 font-sans text-sm text-pf-cream/65">
           Marcenaria e marmoraria em uma mesma conversa.
         </div>
-        <div aria-hidden className="pointer-events-none absolute -bottom-24 -right-24 size-80 rounded-full border border-pf-gold/10 sm:size-[30rem]" />
       </section>
 
       <section className="surface-light px-5 pb-20 pt-16 sm:px-8 lg:px-14 lg:pb-24 lg:pt-44" aria-labelledby="cadastro-titulo">

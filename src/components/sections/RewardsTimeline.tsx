@@ -50,6 +50,9 @@ export function RewardsTimeline() {
     let nodeYs: number[] = [];
     let nodeLengths: number[] = [];
     let routeTrigger: ScrollTrigger | undefined;
+    const routeState = { progress: 0 };
+    let routeTween: ReturnType<typeof gsap.to> | undefined;
+    const mobileRoute = window.matchMedia("(max-width: 1023px)");
 
     const updateProgress = (scrollProgress: number) => {
       if (nodeYs.length < 2) return;
@@ -121,7 +124,7 @@ export function RewardsTimeline() {
         progress.style.strokeDashoffset = "0";
         head.style.opacity = "0";
       } else {
-        updateProgress(routeTrigger?.progress ?? 0);
+        updateProgress(routeState.progress);
       }
     };
 
@@ -140,9 +143,26 @@ export function RewardsTimeline() {
           endTrigger: nodes[nodes.length - 1],
           start: "top 58%",
           end: "top 58%",
-          onUpdate: (self) => updateProgress(self.progress),
+          onUpdate: (self) => {
+            if (!mobileRoute.matches) {
+              routeTween?.kill();
+              routeState.progress = self.progress;
+              updateProgress(self.progress);
+              return;
+            }
+
+            // A linha acompanha o gesto com calma, inclusive ao rolar para cima.
+            routeTween?.kill();
+            routeTween = gsap.to(routeState, {
+              progress: self.progress,
+              duration: 0.9,
+              ease: "power2.out",
+              onUpdate: () => updateProgress(routeState.progress),
+            });
+          },
         });
-        updateProgress(routeTrigger.progress);
+        routeState.progress = routeTrigger.progress;
+        updateProgress(routeState.progress);
 
         cards.forEach((card) => {
           gsap.fromTo(
@@ -180,6 +200,7 @@ export function RewardsTimeline() {
       });
 
       return () => {
+        routeTween?.kill();
         routeTrigger = undefined;
         progress.style.strokeDashoffset = "";
         head.style.opacity = "0";
@@ -210,14 +231,14 @@ export function RewardsTimeline() {
               fill="none"
               stroke="var(--color-pf-gold)"
               strokeOpacity="0.3"
-              strokeWidth="1"
+              className="[stroke-width:2px] lg:[stroke-width:1px]"
             />
             <path
               ref={routeProgress}
               fill="none"
               stroke="var(--color-pf-gold)"
               strokeLinecap="round"
-              strokeWidth="2.5"
+              className="[stroke-width:4px] lg:[stroke-width:2.5px]"
             />
             <circle
               ref={routeHead}
@@ -226,6 +247,7 @@ export function RewardsTimeline() {
               stroke="var(--color-pf-black)"
               strokeWidth="3"
               opacity="0"
+              className="max-lg:[r:7px]"
             />
           </svg>
 
@@ -258,7 +280,7 @@ export function RewardsTimeline() {
                   return (
                     <li
                       key={tier.slug}
-                      className="relative grid min-h-[80svh] grid-cols-[2.75rem_minmax(0,1fr)] items-center gap-x-4 lg:min-h-[95svh] lg:grid-cols-[minmax(0,1fr)_8rem_minmax(0,1fr)] lg:gap-x-6"
+                      className="relative grid min-h-[105svh] grid-cols-[3.5rem_minmax(0,1fr)] items-center gap-x-3 lg:min-h-[95svh] lg:grid-cols-[minmax(0,1fr)_8rem_minmax(0,1fr)] lg:gap-x-6"
                     >
                       <div
                         data-reward-backdrop
@@ -277,7 +299,7 @@ export function RewardsTimeline() {
                       <span
                         data-route-node
                         aria-hidden="true"
-                        className={`relative z-30 col-start-1 row-start-1 block h-3 w-3 rotate-45 border border-pf-gold bg-pf-black lg:col-start-2 ${
+                        className={`relative z-30 col-start-1 row-start-1 block h-5 w-5 rotate-45 border-2 border-pf-gold bg-pf-black lg:col-start-2 lg:h-3 lg:w-3 lg:border ${
                           isRight ? "justify-self-end" : "justify-self-start"
                         }`}
                       />
